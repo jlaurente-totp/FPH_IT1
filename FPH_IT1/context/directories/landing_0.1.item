@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_uU53gNHVEe2ddt47PzgGCA">
+    <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_uU53gdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu4NNoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu4dNoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/&quot;" xmi:id="_Yt1n8Nf1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/&quot;" xmi:id="_Yt1n8df1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/&quot;" xmi:id="_Yt1n8tf1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mkN13Ee29McDk2woBAg"/>
+    <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK4N_hEe28gumX2NJ0_w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="devl" xmi:id="_Yeye0NHgEe2ddt47PzgGCA">
+    <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_Yeye0dHgEe2ddt47PzgGCA"/>
+    <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu4tNoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu49NoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/&quot;" xmi:id="_Yt1n89f1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/&quot;" xmi:id="_Yt1n9Nf1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/&quot;" xmi:id="_Yt1n9df1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mkd13Ee29McDk2woBAg"/>
+    <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK4d_hEe28gumX2NJ0_w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_Yeye0tHgEe2ddt47PzgGCA">
+    <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_Yeye09HgEe2ddt47PzgGCA"/>
+    <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu5NNoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu5dNoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/&quot;" xmi:id="_Yt1n9tf1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/&quot;" xmi:id="_Yt1n99f1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/&quot;" xmi:id="_Yt1n-Nf1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mkt13Ee29McDk2woBAg"/>
+    <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK4t_hEe28gumX2NJ0_w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="qual" xmi:id="_Yeye1NHgEe2ddt47PzgGCA">
+    <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_Yeye1dHgEe2ddt47PzgGCA"/>
+    <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu5tNoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu59NoEe2wB_cWaane0w"/>
+    <contextParameter comment="" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/&quot;" xmi:id="_Yt1n-df1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/&quot;" xmi:id="_Yt1n-tf1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/&quot;" xmi:id="_Yt1n-9f1Ee2wndaviVfm5A"/>
+    <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mk913Ee29McDk2woBAg"/>
+    <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK49_hEe28gumX2NJ0_w"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b236af0e-4354-411c-a7cd-0d5c877aa75f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3EwA/4S7C9VyalXIc/agaP+tqsYBoKmhZHNQ13oq806ToASo91ohN4YoqnsmVWzs10c20d983WhW&#13;
++eJ606GMLA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_412393b0-0cb1-45cc-95ef-d06d0dad7ea6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vZj91y4xQBFsXpT+FhWMFiF63FfpJ+a3pNGOINyEVGyRQX3YjLeLB/jQ8c2i1Uf2LF2M3DjNP3tz&#13;
+w70hYHzzOg==</DigestValue></Reference></SignedInfo><SignatureValue>Gq4N3/4pmIQY4ymQI513ODF79yDCh2LMJiKnSrAvWZsbrxC4gZPgcG5xMph8Btg2C8o5aY95zyo9&#13;
+lmB12MUt5lJz4e1SOAeUogWIc58QKLnIshUC8nfrUc4+9rJzBQB+Zkcn6cVsJ0bMa/KHg95cNQSq&#13;
+cM8mKkbyQAjPtDgaeKzRLYP2fZLLd6A8zMHsmeIzS2sp2Q3YJieLrnxEmVFzxMQ7Cg6jrrQ6jzxK&#13;
+D6Ha/fHRt3aMGi9VkrdUqea2p/UthAeKafztDfNWewacz/ZvPijXipN7t7pf9IKZyk7K22Bke/Re&#13;
+qrrk1x0R10klrKT+Yham4TgeAUtSM9TEcrAJ5Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_412393b0-0cb1-45cc-95ef-d06d0dad7ea6" Target="#_b236af0e-4354-411c-a7cd-0d5c877aa75f"><Timestamp>2023-09-27 07:34:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

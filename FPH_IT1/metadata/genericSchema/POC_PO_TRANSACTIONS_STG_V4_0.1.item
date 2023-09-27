@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection dataPackage="_aflxc9NrEe2wB_cWaane0w" xmi:id="_aflxctNrEe2wB_cWaane0w"/>
+  <TalendMetadata:GenericPackage dataManager="_aflxctNrEe2wB_cWaane0w" xmi:id="_aflxc9NrEe2wB_cWaane0w">
+    <ownedElement id="_aflxcNNrEe2wB_cWaane0w" label="POC_PO_TRANSACTIONS_STG_V4" xmi:id="_aflxdNNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="_ID" length="16777216" name="_ID" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxddNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxdtNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="INVOICE_RECEIPT_NO" length="16777216" name="INVOICE_RECEIPT_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxd9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxeNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="STATUS" length="16777216" name="STATUS" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxedNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxetNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="CURRENT_STEP" length="16777216" name="CURRENT_STEP" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxe9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxfNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="PR_CREATION_DATE" length="16777216" name="PR_CREATION_DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxfdNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxftNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="PR_APPROVAL_DATE" length="16777216" name="PR_APPROVAL_DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxf9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxgNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="PO_CREATION_DATE" length="16777216" name="PO_CREATION_DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxgdNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxgtNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="PO_APPROVAL_DATE" length="16777216" name="PO_APPROVAL_DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxg9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxhNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="CREATION_DATE" length="16777216" name="CREATION_DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxhdNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxhtNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="PAYEE_NAME" length="16777216" name="PAYEE_NAME" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxh9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxiNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="INVOICE_BILLING_NO" length="16777216" name="INVOICE_BILLING_NO" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxidNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxitNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="DOCUMENT_PARKING_TIMESTAMP" length="16777216" name="DOCUMENT_PARKING_TIMESTAMP" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxi9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxjNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="POSTING_DATE___TIME" length="16777216" name="POSTING_DATE___TIME" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxjdNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxjtNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="SAP_DOCUMENT_NUMBER" length="16777216" name="SAP_DOCUMENT_NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxj9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxkNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="PO_NUMBER" length="16777216" name="PO_NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxkdNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxktNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="COMPANY" length="16777216" name="COMPANY" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxk9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxlNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="PAYMENT_RUN_EMAIL_RECEIPT" length="16777216" name="PAYMENT_RUN_EMAIL_RECEIPT" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxldNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxltNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="SAP_GR_SES_NUMBER" length="16777216" name="SAP_GR_SES_NUMBER" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxl9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxmNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="SAP_GR_DATE" length="16777216" name="SAP_GR_DATE" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxmdNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxmtNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="IBS_RECEIVING_TIMESTAMP" length="16777216" name="IBS_RECEIVING_TIMESTAMP" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxm9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxnNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="CHECK_VOUCHER_REVIEW_TIMESTAMP" length="16777216" name="CHECK_VOUCHER_REVIEW_TIMESTAMP" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxndNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxntNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="IBS_CHECK_RELEASING" length="16777216" name="IBS_CHECK_RELEASING" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxn9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxoNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="INVOICE_AMOUNT" length="16777216" name="INVOICE_AMOUNT" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxodNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_aflxotNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="AUDIT_CREATEDAT" name="AUDIT_CREATEDAT" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_LTZ" talendType="id_Date" xmi:id="_aflxo9NrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'CURRENT_TIMESTAMP(0)'" xmi:id="_aflxpNNrEe2wB_cWaane0w"/>
+      </feature>
+      <feature label="AUDIT_CREATEDBY" length="30" name="AUDIT_CREATEDBY" nullable="false" sourceType="VARCHAR" talendType="id_String" xmi:id="_aflxpdNrEe2wB_cWaane0w" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="'CURRENT_USER()'" xmi:id="_aflxptNrEe2wB_cWaane0w"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_81488421-1cdb-4c0c-8a18-33a4c8e1ac37"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uMM0SkBkv19OKC7f5UNafpLUF1izoNqeik3hMUbKing2HDN9Y2RLuo9f7KGAbhgyLuYIwoQzxC/9&#13;
+D8UzzQxUrA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4a0a4253-6472-4041-a3cb-d014907a79ac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vzY/8Xv/xlwBcV34gdXmqGZI6n1eCo1qiBTMhMouSCUz0UG1gShVE3s5zv1kW/p3+qZ4pRL+faLQ&#13;
+N/9sXDgXdg==</DigestValue></Reference></SignedInfo><SignatureValue>Ty7m4n8NflXBNRuWStSxVQjJQYQOza5iv03SrsT8DckDadtNBHYtU42U1gJfo7jdEtVCaHXqe55M&#13;
+rJ9BmngMCbjN5Df3K1G1e7g0qFtIh1JaIGQPRSJlTxidbU1a6qFOa7j7osYyE7V2Y+jorNLDHROy&#13;
+qHoYPJZvZQSLbALQX1gfqU/tvYYInPTAKpVkyv5lbcb9zxa3pVXkqgZcKzaNgoElHCypw/aNNrtY&#13;
+Nr0Zwkn1NNt3Cm/TNNKo+3TlyF3Po33jv/ki5HTXDWK/4MS8cHKMxuuBE4JxcVO2CyuJ+B5b2Zzt&#13;
+2mfF7iQ/SmBDkx/KppsVjO9AsZhWkdDg9rOfyQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4a0a4253-6472-4041-a3cb-d014907a79ac" Target="#_81488421-1cdb-4c0c-8a18-33a4c8e1ac37"><Timestamp>2023-09-27 07:34:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

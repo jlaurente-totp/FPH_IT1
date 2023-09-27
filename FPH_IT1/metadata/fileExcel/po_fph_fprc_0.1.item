@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:FileExcelConnection Encoding="UTF-8" FilePath="D:/talend/fgen/in/KF POC - FPH + FPRC PO Based/KF POC - FPH + FPRC PO Based/POC Data_PO Based.xlsx" FirstLineCaption="true" HeaderValue="1" Server="Localhost 127.0.0.1" SheetName="FPH_Invoice Receipt (with PO)" UseHeader="true" dataPackage="_mIO18ddEEe2cIa6-KZxDuA" decimalSeparator="'.'" firstColumn="1" name="po_fph_fprc" sheetList="FPH_Invoice Receipt (with PO):w&#10;" thousandSeparator="','" xmi:id="_mIO18NdEEe2cIa6-KZxDuA">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_mIO18NdEEe2cIa6-KZxDuA" name="default" xmi:id="_mIO18ddEEe2cIa6-KZxDuA">
+    <ownedElement comment="po_fph_fprc" id="_PZvr0NdEEe2cIa6-KZxDuA" label="po_fph_fprc" xmi:id="_mIO18tdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="Column0" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO189dEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="_id" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO19NdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Invoice_Receipt_No" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO19ddEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Creation_Date" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO19tdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Payee_Name" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO199dEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Posting_Date___Time" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1-NdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SAP_Document_Number" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1-ddEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_Number" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1-tdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Company" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1-9dEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Payment_Run_Email_Receipt" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1_NdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SAP_GR_SES_Number" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1_ddEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="IBS_Receiving_Timestamp" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1_tdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Status" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO1_9dEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Current_step" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO2ANdEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Invoice_Amount" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_mIO2AddEEe2cIa6-KZxDuA" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3572bb69-d608-4abb-97a8-f8deb3b53a59"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BihpQdItZ5aTwljq7Ow3YkuHxZMQT9G9uqGssk7ZRD1L+DWWKpCnnTFpfTsHNSRCdIDn4hkL45fK&#13;
+oUI0fe4Ykg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a3baf357-f1a4-4809-b615-1c9fb41b514e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dMfrCJFW90fWD8LARyY3XhxzGEgvPblEOmaAgW/OXiVWbbNzjQsMzDZomUYN2Ody9C4K8HnIdH69&#13;
+bhY2nGMCNw==</DigestValue></Reference></SignedInfo><SignatureValue>ihtxhVqVZ5ZoHmiM9RITINLWTicohH22T0iC7K8gLqFSyu0fHc9xfu7KDMvcuGiZKlmYMOKYXQxb&#13;
+dd/ilaayf3EPMWGDNsX88xutAAlo95VDm0dv9pJUbsw10WoKpiLde6Z9HUKvFiIfrSVYUDski3Sy&#13;
+Dj5Oc+l2AVoNBmX3QzOOA9oYa8ck2+0+Hh/9smtRnk0XAcqWhL2d+6jImPSmDzHMTaENxsZIsEjo&#13;
+gWZS2qu3cS0TPE8FVz+/kVpzcLK6L3k2Ifye3xdkFuTKwy+ELPy8U3FvMZvptS5PQHX7B3GWATrC&#13;
+UcFqWnq8vN6tVS5s2wO4jO64f7AJdgQpk8RfuQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a3baf357-f1a4-4809-b615-1c9fb41b514e" Target="#_3572bb69-d608-4abb-97a8-f8deb3b53a59"><Timestamp>2023-09-27 07:34:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:FileExcelConnection Encoding="UTF-8" FilePath="D:/Users/Indra/OneDrive - Indra/Documents/Projects/First Gen/Data/updated/FPH SAP Data Extracted - CFC Dashboard_04.11.2023.xlsx" FirstLineCaption="true" HeaderValue="1" Server="Localhost 127.0.0.1" SheetName="Purchase Order" UseHeader="true" dataPackage="_a12j4dgiEe2iON4Nh7J48g" decimalSeparator="'.'" firstColumn="1" name="sap_po" sheetList="Purchase Order:w&#10;" thousandSeparator="','" xmi:id="_a12j4NgiEe2iON4Nh7J48g">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+    <sheetColumns>V</sheetColumns>
+    <sheetColumns>W</sheetColumns>
+    <sheetColumns>X</sheetColumns>
+    <sheetColumns>Y</sheetColumns>
+    <sheetColumns>Z</sheetColumns>
+    <sheetColumns>AA</sheetColumns>
+    <sheetColumns>AB</sheetColumns>
+    <sheetColumns>AC</sheetColumns>
+    <sheetColumns>AD</sheetColumns>
+    <sheetColumns>AE</sheetColumns>
+    <sheetColumns>AF</sheetColumns>
+    <sheetColumns>AG</sheetColumns>
+    <sheetColumns>AH</sheetColumns>
+    <sheetColumns>AI</sheetColumns>
+    <sheetColumns>AJ</sheetColumns>
+    <sheetColumns>AK</sheetColumns>
+    <sheetColumns>AL</sheetColumns>
+    <sheetColumns>AM</sheetColumns>
+    <sheetColumns>AN</sheetColumns>
+    <sheetColumns>AO</sheetColumns>
+    <sheetColumns>AP</sheetColumns>
+    <sheetColumns>AQ</sheetColumns>
+    <sheetColumns>AR</sheetColumns>
+    <sheetColumns>AS</sheetColumns>
+    <sheetColumns>AT</sheetColumns>
+    <sheetColumns>AU</sheetColumns>
+    <sheetColumns>AV</sheetColumns>
+    <sheetColumns>AW</sheetColumns>
+    <sheetColumns>AX</sheetColumns>
+    <sheetColumns>AY</sheetColumns>
+    <sheetColumns>AZ</sheetColumns>
+    <sheetColumns>BA</sheetColumns>
+    <sheetColumns>BB</sheetColumns>
+    <sheetColumns>BC</sheetColumns>
+    <sheetColumns>BD</sheetColumns>
+    <sheetColumns>BE</sheetColumns>
+    <sheetColumns>BF</sheetColumns>
+    <sheetColumns>BG</sheetColumns>
+    <sheetColumns>BH</sheetColumns>
+    <sheetColumns>BI</sheetColumns>
+    <sheetColumns>BJ</sheetColumns>
+    <sheetColumns>BK</sheetColumns>
+    <sheetColumns>BL</sheetColumns>
+    <sheetColumns>BM</sheetColumns>
+    <sheetColumns>BN</sheetColumns>
+    <sheetColumns>BO</sheetColumns>
+    <sheetColumns>BP</sheetColumns>
+    <sheetColumns>BQ</sheetColumns>
+    <sheetColumns>BR</sheetColumns>
+    <sheetColumns>BS</sheetColumns>
+    <sheetColumns>BT</sheetColumns>
+    <sheetColumns>BU</sheetColumns>
+    <sheetColumns>BV</sheetColumns>
+    <sheetColumns>BW</sheetColumns>
+    <sheetColumns>BX</sheetColumns>
+    <sheetColumns>BY</sheetColumns>
+    <sheetColumns>BZ</sheetColumns>
+    <sheetColumns>CA</sheetColumns>
+    <sheetColumns>CB</sheetColumns>
+    <sheetColumns>CC</sheetColumns>
+    <sheetColumns>CD</sheetColumns>
+    <sheetColumns>CE</sheetColumns>
+    <sheetColumns>CF</sheetColumns>
+    <sheetColumns>CG</sheetColumns>
+    <sheetColumns>CH</sheetColumns>
+    <sheetColumns>CI</sheetColumns>
+    <sheetColumns>CJ</sheetColumns>
+    <sheetColumns>CK</sheetColumns>
+    <sheetColumns>CL</sheetColumns>
+    <sheetColumns>CM</sheetColumns>
+    <sheetColumns>CN</sheetColumns>
+    <sheetColumns>CO</sheetColumns>
+    <sheetColumns>CP</sheetColumns>
+    <sheetColumns>CQ</sheetColumns>
+    <sheetColumns>CR</sheetColumns>
+    <sheetColumns>CS</sheetColumns>
+    <sheetColumns>CT</sheetColumns>
+    <sheetColumns>CU</sheetColumns>
+    <sheetColumns>CV</sheetColumns>
+    <sheetColumns>CW</sheetColumns>
+    <sheetColumns>CX</sheetColumns>
+    <sheetColumns>CY</sheetColumns>
+    <sheetColumns>CZ</sheetColumns>
+    <sheetColumns>DA</sheetColumns>
+    <sheetColumns>DB</sheetColumns>
+    <sheetColumns>DC</sheetColumns>
+    <sheetColumns>DD</sheetColumns>
+    <sheetColumns>DE</sheetColumns>
+    <sheetColumns>DF</sheetColumns>
+    <sheetColumns>DG</sheetColumns>
+    <sheetColumns>DH</sheetColumns>
+    <sheetColumns>DI</sheetColumns>
+    <sheetColumns>DJ</sheetColumns>
+    <sheetColumns>DK</sheetColumns>
+    <sheetColumns>DL</sheetColumns>
+    <sheetColumns>DM</sheetColumns>
+    <sheetColumns>DN</sheetColumns>
+    <sheetColumns>DO</sheetColumns>
+    <sheetColumns>DP</sheetColumns>
+    <sheetColumns>DQ</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_a12j4NgiEe2iON4Nh7J48g" name="default" xmi:id="_a12j4dgiEe2iON4Nh7J48g">
+    <ownedElement comment="sap_po" id="_yrsNENghEe2iON4Nh7J48g" label="sap_po" xmi:id="_a12j4tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="Purchasing_Document" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j49giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Company_Code" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j5NgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Purchasing_Doc__Type" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j5dgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Created_on" length="10" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12j5tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Created_by" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j59giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_Released_By" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j6NgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_Released_Date" length="10" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12j6dgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_Released_Time" length="8" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_a12j6tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_Contract" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j69giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_Created_by" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j7NgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_Requisition_Date" length="10" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12j7dgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_Changed_on" length="10" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12j7tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_Released_By" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j79giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_Released_Date" length="10" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12j8NgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_Released_Time" length="8" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_a12j8dgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contract_Created_on" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j8tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contract_Created_by" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j89giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Vendor" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j9NgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Purch__Organization" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j9dgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Purchasing_Group" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j9tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Currency" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j99giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Document_Date" length="10" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12j-NgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Release_Strategy" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j-dgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Release_indicator" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j-tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Release_status" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j-9giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Subject_to_release" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j_NgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Item" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j_dgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Last_Changed_on" length="10" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12j_tgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Short_Text" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12j_9giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Material" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kANgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Plant" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kAdgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Order_Quantity" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kAtgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Order_Unit" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kA9giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Order_Price_Unit" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kBNgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Net_Order_Price" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kBdgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Price_Unit" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kBtgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Net_Order_Value" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kB9giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Gross_order_value" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kCNgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Tax_code" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kCdgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outline_Agreement" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kCtgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Principal_Agmt_Item" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kC9giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Price_Date" length="-1" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_a12kDNgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Purch__Doc__Category" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kDdgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Effective_value" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kDtgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Purchase_Requisition" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kD9giEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Item_of_Requisition" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kENgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Requisitioner" length="255" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_a12kEdgiEe2iON4Nh7J48g" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_93fb5e0d-1c95-458c-aa16-e0341e323868"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>H7PI69JCz7AxUvuiBR0+0wLNPBX33R0u7MaIEbD4RWIKWic8ShcBloEEhcXKuJ2GQc19XQUM5K8S&#13;
+Bd1Pgr4Tsg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_97293fa9-7552-4721-bba4-488579ae9930"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xGUf7XyEdyjz2fRVVfeuQAlDZYmv0HbbbhEc7rJMkn8/bxZiOCumnKQhi8L824KqgCftAZQ2mS9k&#13;
+2e4C/KREhQ==</DigestValue></Reference></SignedInfo><SignatureValue>Nmt01jXVG2Cyik+JHSinxvIixSjMQRmSBhf9pW0isQoD99bEmLH0cwkY8UzPfK+r7nVPGgBVV5FL&#13;
+a3gtXX0T6PNwIHrU5n+idW1Y+TN4ZLTnsdGB3BtazUOEMi87Kcx/9W5rl+VSIPBNMZlgo95v711u&#13;
+C/PinkaslZyr09r2PgFz5Tv7aryuZWY6NgzH6ngbwUu1WmpyBIM+LlPoR3G32XKYzviVGzZFILRe&#13;
+gd+apDCQBdhrq4MvpiXh78iDFOXfTyYKhDxrnKV87UpdcJWXv/n3+fHPtnETwzZi6YrZQkWbJvhA&#13;
+oGzie+1ntgfGcz5+KefvPPxmpO4SAAlfm6Vu/g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_97293fa9-7552-4721-bba4-488579ae9930" Target="#_93fb5e0d-1c95-458c-aa16-e0341e323868"><Timestamp>2023-09-27 07:34:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_DolNgeMOEe2SWd32YFfQqQ" label="connectionLabel" xmi:id="_DolNgOMOEe2SWd32YFfQqQ"/>
+  <TalendMetadata:GenericPackage dataManager="_DolNgOMOEe2SWd32YFfQqQ" xmi:id="_DolNgeMOEe2SWd32YFfQqQ">
+    <ownedElement label="metadata" xmi:id="_DolNguMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature id="15994" label="Purchasing_Document" length="255" name="Purchasing_Document" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNg-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNhOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="15995" label="Company_Code" length="255" name="Company_Code" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNheMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNhuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="15996" label="Purchasing_Doc__Type" length="255" name="Purchasing_Doc__Type" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNh-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNiOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="15997" label="Created_on" length="10" name="Created_on" pattern="&quot;MM/dd/yyyy&quot;" talendType="id_Date" xmi:id="_DolNieMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNiuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="15998" label="Created_by" length="255" name="Created_by" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNi-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNjOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="15999" label="PO_Released_By" length="255" name="PO_Released_By" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNjeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNjuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16000" label="PO_Released_Date" length="10" name="PO_Released_Date" pattern="&quot;MM/dd/yyyy&quot;" talendType="id_Date" xmi:id="_DolNj-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNkOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16001" label="PO_Released_Time" length="11" name="PO_Released_Time" pattern="&quot;HH:mm:ss a&quot;" talendType="id_Date" xmi:id="_DolNkeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNkuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16002" label="PR_Contract" length="255" name="PR_Contract" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNk-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNlOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16003" label="PR_Created_by" length="255" name="PR_Created_by" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNleMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNluMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16004" label="PR_Requisition_Date" length="10" name="PR_Requisition_Date" pattern="&quot;MM/dd/yyyy&quot;" talendType="id_Date" xmi:id="_DolNl-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNmOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16005" label="PR_Changed_on" length="10" name="PR_Changed_on" pattern="&quot;dd/MM/yyyy&quot;" talendType="id_Date" xmi:id="_DolNmeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNmuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16006" label="PR_Released_By" length="255" name="PR_Released_By" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNm-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNnOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16007" label="PR_Released_Date" length="10" name="PR_Released_Date" pattern="&quot;MM/dd/yyyy&quot;" talendType="id_Date" xmi:id="_DolNneMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNnuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16008" label="PR_Released_Time" length="8" name="PR_Released_Time" pattern="&quot;HH:mm:ss a&quot;" talendType="id_Date" xmi:id="_DolNn-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNoOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16009" label="Contract_Created_on" length="255" name="Contract_Created_on" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNoeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNouMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16010" label="Contract_Created_by" length="255" name="Contract_Created_by" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNo-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNpOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16011" label="Vendor" length="255" name="Vendor" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNpeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNpuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16012" label="Purch__Organization" length="255" name="Purch__Organization" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNp-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNqOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16013" label="Purchasing_Group" length="255" name="Purchasing_Group" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNqeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNquMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16014" label="Currency" length="255" name="Currency" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNq-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNrOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16015" label="Document_Date" length="10" name="Document_Date" pattern="&quot;MM/dd/yyyy&quot;" talendType="id_Date" xmi:id="_DolNreMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNruMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16016" label="Release_Strategy" length="255" name="Release_Strategy" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNr-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNsOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16017" label="Release_indicator" length="255" name="Release_indicator" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNseMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNsuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16018" label="Release_status" length="255" name="Release_status" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNs-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNtOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16019" label="Subject_to_release" length="255" name="Subject_to_release" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNteMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNtuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16020" label="Item" length="255" name="Item" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNt-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNuOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16021" label="Last_Changed_on" length="10" name="Last_Changed_on" pattern="&quot;MM/dd/yyyy&quot;" talendType="id_Date" xmi:id="_DolNueMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNuuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16022" label="Short_Text" length="255" name="Short_Text" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNu-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNvOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16023" label="Material" length="255" name="Material" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNveMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNvuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16024" label="Plant" length="255" name="Plant" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNv-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNwOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16025" label="Order_Quantity" length="255" name="Order_Quantity" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNweMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNwuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16026" label="Order_Unit" length="255" name="Order_Unit" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNw-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNxOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16027" label="Order_Price_Unit" length="255" name="Order_Price_Unit" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNxeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNxuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16028" label="Net_Order_Price" length="255" name="Net_Order_Price" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNx-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNyOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16029" label="Price_Unit" length="255" name="Price_Unit" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNyeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNyuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16030" label="Net_Order_Value" length="255" name="Net_Order_Value" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNy-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNzOMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16031" label="Gross_order_value" length="255" name="Gross_order_value" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNzeMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolNzuMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16032" label="Tax_code" length="255" name="Tax_code" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolNz-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN0OMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16033" label="Outline_Agreement" length="255" name="Outline_Agreement" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolN0eMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN0uMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16034" label="Principal_Agmt_Item" length="255" name="Principal_Agmt_Item" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolN0-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN1OMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16035" label="Price_Date" length="10" name="Price_Date" pattern="&quot;MM/dd/yyyy&quot;" talendType="id_Date" xmi:id="_DolN1eMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN1uMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16036" label="Purch__Doc__Category" length="255" name="Purch__Doc__Category" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolN1-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN2OMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16037" label="Effective_value" length="255" name="Effective_value" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolN2eMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN2uMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16038" label="Purchase_Requisition" length="255" name="Purchase_Requisition" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolN2-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN3OMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16039" label="Item_of_Requisition" length="255" name="Item_of_Requisition" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolN3eMOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN3uMOEe2SWd32YFfQqQ"/>
+      </feature>
+      <feature id="16040" label="Requisitioner" length="255" name="Requisitioner" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_DolN3-MOEe2SWd32YFfQqQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_DolN4OMOEe2SWd32YFfQqQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_90bfca0b-d3ed-42b8-a994-0f28e9d38037"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eJ9N30R+jKxYk7jHRA1nzwDwpv5LYN7G0m5b0Ua6qTeKTwkpDLB74M70g02Sp6TfSR5P7JALe6la&#13;
+qahPbFtHEQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1f00573e-cf21-4ac9-bc65-fe9069b5f05d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yuS1Yvl9GsMmgXMQh2iuErA2EfURj3gzoPtRxdA4vcvimMlShu4tcsf2vIZKmV6dSACgSFESfHXJ&#13;
+fPr2dKoaSQ==</DigestValue></Reference></SignedInfo><SignatureValue>Wzx4bnIVcEGpDKBviyiIPDQdopMNgP5layzlthX8lXXZ+/Rp9Z2tz/N0wyA2y1ueSDWN7QGKhA60&#13;
+/ID9fZEIlvjXNczQdJgCAJLGVFotj8jLAAwiDjmpgqoFNWF9I3vqRSAy4At7sWLJcYjfXhWL+2Ul&#13;
+R0zVSCKEjqcxVPQugm4HDfeR32xdF7jZ67NxETJ/LRUt48r18UEkGb6GfCw3u+OYNGYJ6V35zisS&#13;
+9OjaQjQU7/XU8e0GN+hb3Nedo9sWF7b1wN5GWmBcaStkHEDFgxRFnIZVfHQTbArwz/0xJ45EylEw&#13;
+6G1yM4mJ7gCML0TPCRmkWw5z+HnzG6bPgFwHdQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1f00573e-cf21-4ac9-bc65-fe9069b5f05d" Target="#_90bfca0b-d3ed-42b8-a994-0f28e9d38037"><Timestamp>2023-09-27 07:34:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
