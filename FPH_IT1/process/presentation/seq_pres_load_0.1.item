@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default">
+  <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" internalId="_Zo1iQOJWEe25ncZEc1bgvg" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/in/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iQeJWEe25ncZEc1bgvg" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iQuJWEe25ncZEc1bgvg" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/out/&quot;"/>
@@ -9,20 +9,20 @@
     <contextParameter comment="" internalId="_Zo1iRuJWEe25ncZEc1bgvg" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iR-JWEe25ncZEc1bgvg" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;"/>
     <contextParameter comment="Run Date in ISO Format" internalId="_Zo1iSOJWEe25ncZEc1bgvg" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value="&quot;20230421&quot;"/>
-    <contextParameter comment="Snowflake Core Zone" internalId="_t6bzMOJWEe25ncZEc1bgvg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;core&quot;"/>
-    <contextParameter comment="Snowflake Reporting Layer" internalId="_t6bzMeJWEe25ncZEc1bgvg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;pres&quot;"/>
-    <contextParameter comment="Snowflake Locator" internalId="_t6bzMuJWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;ei43753.ap-southeast-1&quot;"/>
-    <contextParameter comment="Snowflake Password" internalId="_t6bzM-JWEe25ncZEc1bgvg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:SUtfl3uuF5VeT9qzy0tndaA6X0L54dH2SxScK1Q5j02e+OhWV6mH3Tij9BWJjuc="/>
-    <contextParameter comment="Snowflake Default Role" internalId="_t6bzNOJWEe25ncZEc1bgvg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;accountadmin&quot;"/>
+    <contextParameter comment="Snowflake Core Zone" internalId="_t6bzMOJWEe25ncZEc1bgvg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;CORE&quot;"/>
+    <contextParameter comment="Snowflake Reporting Layer" internalId="_t6bzMeJWEe25ncZEc1bgvg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;PRES&quot;"/>
+    <contextParameter comment="Snowflake Locator" internalId="_t6bzMuJWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;qq98815.ap-southeast-1&quot;"/>
+    <contextParameter comment="Snowflake Password" internalId="_t6bzM-JWEe25ncZEc1bgvg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:vIeCIB/hNVej1yMx75pROIvTs+Onc2QykLAUpp85rHms9kNjtaibNcBcb5LJ2Q=="/>
+    <contextParameter comment="Snowflake Default Role" internalId="_t6bzNOJWEe25ncZEc1bgvg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;ACCOUNTADMIN&quot;"/>
     <contextParameter comment="Snowflake Driver Class Name" internalId="_t6bzNeJWEe25ncZEc1bgvg" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;com.snowflake.client.jdbc.SnowflakeDriver&quot;"/>
-    <contextParameter comment="Snowflake Default Database" internalId="_t6bzNuJWEe25ncZEc1bgvg" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;qual&quot;"/>
-    <contextParameter comment="Snowflake Staging Area" internalId="_t6bzN-JWEe25ncZEc1bgvg" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;stg&quot;"/>
+    <contextParameter comment="Snowflake Default Database" internalId="_t6bzNuJWEe25ncZEc1bgvg" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;QUAL&quot;"/>
+    <contextParameter comment="Snowflake Staging Area" internalId="_t6bzN-JWEe25ncZEc1bgvg" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;STG&quot;"/>
     <contextParameter comment="Snowflake Application Schema" internalId="_t6bzOOJWEe25ncZEc1bgvg" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;appl&quot;"/>
-    <contextParameter comment="Snowflake Default Warehouse" internalId="_t6bzOeJWEe25ncZEc1bgvg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;compute_wh&quot;"/>
-    <contextParameter comment="Snowflake Work Area" internalId="_t6bzOuJWEe25ncZEc1bgvg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;wrk&quot;"/>
-    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzO-JWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://ei43753.ap-southeast-1.snowflakecomputing.com/&quot;"/>
-    <contextParameter comment="Snowflake Default Schema" internalId="_t6bzPOJWEe25ncZEc1bgvg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;public&quot;"/>
-    <contextParameter comment="Snowflake Username" internalId="_t6bzPeJWEe25ncZEc1bgvg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;patchpanel&quot;"/>
+    <contextParameter comment="Snowflake Default Warehouse" internalId="_t6bzOeJWEe25ncZEc1bgvg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;COMPUTE_WH&quot;"/>
+    <contextParameter comment="Snowflake Work Area" internalId="_t6bzOuJWEe25ncZEc1bgvg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;WRK&quot;"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzO-JWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/&quot;"/>
+    <contextParameter comment="Snowflake Default Schema" internalId="_t6bzPOJWEe25ncZEc1bgvg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;PUBLIC&quot;"/>
+    <contextParameter comment="Snowflake Username" internalId="_t6bzPeJWEe25ncZEc1bgvg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;JLAURENTE&quot;"/>
     <contextParameter comment="" internalId="_t6bzPuJWEe25ncZEc1bgvg" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="&quot;sp_poc_clcsla_po_load&quot;"/>
     <contextParameter comment="" internalId="_t6bzP-JWEe25ncZEc1bgvg" name="spPocStgToCoreNonPoLoad" prompt="spPocStgToCoreNonPoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="&quot;sp_poc_clcsla_nonpo_load&quot;"/>
     <contextParameter comment="FPH+FPRC PO transactions staging table" internalId="_t6bzQOJWEe25ncZEc1bgvg" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="&quot;poc_po_transactions_v6_stg&quot;"/>
@@ -49,7 +49,7 @@
     <contextParameter comment="SAP PO Transactions table" internalId="_t6bzVeJWEe25ncZEc1bgvg" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="&quot;poc_sap_po_transactions_v6_stg&quot;"/>
     <contextParameter comment="Work table for NONPO Transactions" internalId="_t6bzVuJWEe25ncZEc1bgvg" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="&quot;poc_nonpo_transactions_v6_wrk&quot;"/>
   </context>
-  <context confirmationNeeded="false" name="prod">
+  <context confirmationNeeded="false" hide="false" name="prod">
     <contextParameter comment="" internalId="_Zo1iSeJWEe25ncZEc1bgvg" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/in/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iSuJWEe25ncZEc1bgvg" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iS-JWEe25ncZEc1bgvg" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/out/&quot;"/>
@@ -61,16 +61,16 @@
     <contextParameter comment="Run Date in ISO Format" internalId="_Zo1iUeJWEe25ncZEc1bgvg" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value="&quot;20230412&quot;"/>
     <contextParameter comment="Snowflake Core Zone" internalId="_t6bzV-JWEe25ncZEc1bgvg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;core&quot;"/>
     <contextParameter comment="Snowflake Reporting Layer" internalId="_t6bzWOJWEe25ncZEc1bgvg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;pres&quot;"/>
-    <contextParameter comment="Snowflake Locator" internalId="_t6bzWeJWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;fu06329.ap-northeast-1.aws&quot;"/>
-    <contextParameter comment="Snowflake Password" internalId="_t6bzWuJWEe25ncZEc1bgvg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:ldWiHdvEUEFVby8HcEAmaPlP/ZW56Wxy1CIJfWEUwF/tgrwCrHTALU8="/>
-    <contextParameter comment="Snowflake Default Role" internalId="_t6bzW-JWEe25ncZEc1bgvg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;vendor1&quot;"/>
+    <contextParameter comment="Snowflake Locator" internalId="_t6bzWeJWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;qq98815.ap-southeast-1&quot;"/>
+    <contextParameter comment="Snowflake Password" internalId="_t6bzWuJWEe25ncZEc1bgvg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:IYih5ZNG6dnjxBNk0HC3K8/n4o024xKOWPMW8h2Q9eZt2+M+tAmH2prhKvw9bg=="/>
+    <contextParameter comment="Snowflake Default Role" internalId="_t6bzW-JWEe25ncZEc1bgvg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;accountadmin&quot;"/>
     <contextParameter comment="Snowflake Driver Class Name" internalId="_t6bzXOJWEe25ncZEc1bgvg" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;com.snowflake.client.jdbc.SnowflakeDriver&quot;"/>
-    <contextParameter comment="Snowflake Default Database" internalId="_t6bzXeJWEe25ncZEc1bgvg" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;V1_POC&quot;"/>
+    <contextParameter comment="Snowflake Default Database" internalId="_t6bzXeJWEe25ncZEc1bgvg" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;devl&quot;"/>
     <contextParameter comment="Snowflake Staging Area" internalId="_t6bzXuJWEe25ncZEc1bgvg" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;stg&quot;"/>
     <contextParameter comment="Snowflake Application Schema" internalId="_t6bzX-JWEe25ncZEc1bgvg" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;appl&quot;"/>
-    <contextParameter comment="Snowflake Default Warehouse" internalId="_t6bzYOJWEe25ncZEc1bgvg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;v1_wh&quot;"/>
+    <contextParameter comment="Snowflake Default Warehouse" internalId="_t6bzYOJWEe25ncZEc1bgvg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;compute_wh&quot;"/>
     <contextParameter comment="Snowflake Work Area" internalId="_t6bzYeJWEe25ncZEc1bgvg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;wrk&quot;"/>
-    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzYuJWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://fu06329.ap-northeast-1.aws.snowflakecomputing.com/&quot;"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzYuJWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/&quot;"/>
     <contextParameter comment="Snowflake Default Schema" internalId="_t6bzY-JWEe25ncZEc1bgvg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;public&quot;"/>
     <contextParameter comment="Snowflake Username" internalId="_t6bzZOJWEe25ncZEc1bgvg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jrlaurente&quot;"/>
     <contextParameter comment="" internalId="_t6bzZeJWEe25ncZEc1bgvg" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="&quot;sp_poc_clcsla_po_load&quot;"/>
@@ -99,7 +99,7 @@
     <contextParameter comment="SAP PO Transactions table" internalId="_t6bzfOJWEe25ncZEc1bgvg" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="&quot;poc_sap_po_transactions_v6_stg&quot;"/>
     <contextParameter comment="Work table for NONPO Transactions" internalId="_t6bzfeJWEe25ncZEc1bgvg" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="&quot;poc_nonpo_transactions_v6_wrk&quot;"/>
   </context>
-  <context confirmationNeeded="false" name="devl">
+  <context confirmationNeeded="false" hide="false" name="devl">
     <contextParameter comment="" internalId="_Zo1iUuJWEe25ncZEc1bgvg" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/in/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iU-JWEe25ncZEc1bgvg" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iVOJWEe25ncZEc1bgvg" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/out/&quot;"/>
@@ -111,7 +111,7 @@
     <contextParameter comment="Run Date in ISO Format" internalId="_Zo1iWuJWEe25ncZEc1bgvg" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value="&quot;20230414&quot;"/>
     <contextParameter comment="Snowflake Core Zone" internalId="_t6bzfuJWEe25ncZEc1bgvg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;core&quot;"/>
     <contextParameter comment="Snowflake Reporting Layer" internalId="_t6bzf-JWEe25ncZEc1bgvg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;pres&quot;"/>
-    <contextParameter comment="Snowflake Locator" internalId="_t6bzgOJWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;fk30203.ap-southeast-1&quot;"/>
+    <contextParameter comment="Snowflake Locator" internalId="_t6bzgOJWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;qq98815.ap-southeast-1&quot;"/>
     <contextParameter comment="Snowflake Password" internalId="_t6bzgeJWEe25ncZEc1bgvg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:CQcY1YckQ9s5uTGvEmQNKZSiH8O8YlnffxLvJ7P8Hl5/ZWK88N+itLLApy2hMA=="/>
     <contextParameter comment="Snowflake Default Role" internalId="_t6bzguJWEe25ncZEc1bgvg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;accountadmin&quot;"/>
     <contextParameter comment="Snowflake Driver Class Name" internalId="_t6bzg-JWEe25ncZEc1bgvg" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;com.snowflake.client.jdbc.SnowflakeDriver&quot;"/>
@@ -120,7 +120,7 @@
     <contextParameter comment="Snowflake Application Schema" internalId="_t6bzhuJWEe25ncZEc1bgvg" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;appl&quot;"/>
     <contextParameter comment="Snowflake Default Warehouse" internalId="_t6bzh-JWEe25ncZEc1bgvg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;compute_wh&quot;"/>
     <contextParameter comment="Snowflake Work Area" internalId="_t6bziOJWEe25ncZEc1bgvg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;wrk&quot;"/>
-    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzieJWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://fk30203.ap-southeast-1.snowflakecomputing.com/&quot;"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzieJWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/&quot;"/>
     <contextParameter comment="Snowflake Default Schema" internalId="_t6bziuJWEe25ncZEc1bgvg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;public&quot;"/>
     <contextParameter comment="Snowflake Username" internalId="_t6bzi-JWEe25ncZEc1bgvg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jlaurente&quot;"/>
     <contextParameter comment="" internalId="_t6bzjOJWEe25ncZEc1bgvg" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="&quot;sp_poc_clcsla_po_load&quot;"/>
@@ -149,7 +149,7 @@
     <contextParameter comment="SAP PO Transactions table" internalId="_t6bzo-JWEe25ncZEc1bgvg" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="&quot;poc_sap_po_transactions_v6_stg&quot;"/>
     <contextParameter comment="Work table for NONPO Transactions" internalId="_t6bzpOJWEe25ncZEc1bgvg" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="&quot;poc_nonpo_transactions_v6_wrk&quot;"/>
   </context>
-  <context confirmationNeeded="false" name="qual">
+  <context confirmationNeeded="false" hide="false" name="qual">
     <contextParameter comment="" internalId="_Zo1iW-JWEe25ncZEc1bgvg" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/in/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iXOJWEe25ncZEc1bgvg" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;"/>
     <contextParameter comment="" internalId="_Zo1iXeJWEe25ncZEc1bgvg" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="&quot;D:/talend/fgen/out/&quot;"/>
@@ -161,7 +161,7 @@
     <contextParameter comment="Run Date in ISO Format" internalId="_Zo1iY-JWEe25ncZEc1bgvg" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value="&quot;20230421&quot;"/>
     <contextParameter comment="Snowflake Core Zone" internalId="_t6bzpeJWEe25ncZEc1bgvg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;core&quot;"/>
     <contextParameter comment="Snowflake Reporting Layer" internalId="_t6bzpuJWEe25ncZEc1bgvg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;pres&quot;"/>
-    <contextParameter comment="Snowflake Locator" internalId="_t6bzp-JWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;fk30203.ap-southeast-1&quot;"/>
+    <contextParameter comment="Snowflake Locator" internalId="_t6bzp-JWEe25ncZEc1bgvg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;qq98815.ap-southeast-1&quot;"/>
     <contextParameter comment="Snowflake Password" internalId="_t6bzqOJWEe25ncZEc1bgvg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:wm++ExbWBw2NG+Bvmq33R0jeeNk5xzx06oT+XinE5eJDfkw4YC2pdoRWDg4yqA=="/>
     <contextParameter comment="Snowflake Default Role" internalId="_t6bzqeJWEe25ncZEc1bgvg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;accountadmin&quot;"/>
     <contextParameter comment="Snowflake Driver Class Name" internalId="_t6bzquJWEe25ncZEc1bgvg" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;com.snowflake.client.jdbc.SnowflakeDriver&quot;"/>
@@ -170,7 +170,7 @@
     <contextParameter comment="Snowflake Application Schema" internalId="_t6bzreJWEe25ncZEc1bgvg" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;appl&quot;"/>
     <contextParameter comment="Snowflake Default Warehouse" internalId="_t6bzruJWEe25ncZEc1bgvg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;compute_wh&quot;"/>
     <contextParameter comment="Snowflake Work Area" internalId="_t6bzr-JWEe25ncZEc1bgvg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;wrk&quot;"/>
-    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzsOJWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://fk30203.ap-southeast-1.snowflakecomputing.com/&quot;"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_t6bzsOJWEe25ncZEc1bgvg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/&quot;"/>
     <contextParameter comment="Snowflake Default Schema" internalId="_t6bzseJWEe25ncZEc1bgvg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;public&quot;"/>
     <contextParameter comment="Snowflake Username" internalId="_t6bzsuJWEe25ncZEc1bgvg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="&quot;jlaurente&quot;"/>
     <contextParameter comment="" internalId="_t6bzs-JWEe25ncZEc1bgvg" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="&quot;sp_poc_clcsla_po_load&quot;"/>
@@ -242,7 +242,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:p7j/0pPyl/SgtAwzimLdq000rcXTv0W0dy+9KYra"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ZLma0Bt08rsl5TR2FUk2pdXRiUT5HcOvv6LdPPR/"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -257,7 +257,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/talend/Talend-Studio-20221003_1400-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/talend/Talend-Studio-20230428_0423-V8.0.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -277,7 +277,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:D6pyLdvCakdLJaI0nWPzuY3UUcWyUfrTfEfgXgEg"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ETLuR/FR1+1h2/WS1ro3p20r/nQfzZkLGnBNvi+s"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -379,13 +379,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_032ceffd-c388-419f-b25c-c0008cd0abd5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uSMQmQcrGtwMN34bMTirVAG2z2HtbP4viCXdLYc6Td8Hsvc4GivYNUYL214mZv3jjjy1wOfl74q/&#13;
-jAkcJo5TKA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_241115cb-7467-4b4e-afa9-35c30839a3dc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kbTgUBI9ZKVqVozPoFwQPz6LP3KsIvN369ccMRcpIOg1gPnK245XZlIaNbkv//+cxXnQrMsqd1R0&#13;
-kf+g6v8rfQ==</DigestValue></Reference></SignedInfo><SignatureValue>kidHs5sIKPwlLOjNvdJA7vaRAc8lednCsnbGD9jzmEjsujMqjOM6YKYEHLalpYO1O0z+8XiAQtfT&#13;
-BREaqEA5HqbkEbRtnYQVD0jrC89I6myEraN0udJMA8wSdfk8sKoZHwLPO5XlDtxJAzL2AjuKhOn9&#13;
-lf4TzXyh8t8HoKCjJW1T7obUD/riTmcTlNS6tA/P3QzKDfe8EnDgTGTUWbu5K/0NswSMEs7FYEOK&#13;
-4uuFGlbvJ9JajtuazOmS3HJFtYRm4dXu4JHFPeO816sBldKnOuVrZ/I5JxjoI9aTayD65OIvWMF8&#13;
-G3VNIRn3ctXlUP1fnP6tNZzkNXggbkyemL/TCQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_14ab6ba3-2d2e-4656-9867-0764d7a759d4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mmOK/BPxJ8gewtabTvVbCLBiwXI9HN93lcmkTCGQYngFgaHdHqLJitX5nKsQxt32yoISgVWez/+e&#13;
+xKM+CEtr7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c6e0e30c-164e-4200-9a3f-92b70b254056"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>v71OfRB4uJIFCgPWB9mjwokXMJAN6dRLpA8N2Q6rPnje3dPyCCh3TtDtnHNKjYinJsmoYZW0XWpM&#13;
+86kG0Fl7dQ==</DigestValue></Reference></SignedInfo><SignatureValue>VkCJtMcGgDt/Ev9D/rW0V/UlmAlzWmx5+CqXkpLy3pHgxC6vvqAy0RMpgUNEl2HO5PvJvyg3Yozh&#13;
+4DaZs2N82TcJ5jz4dD01nnwd+22JlMLwYiim4Ls/EEN7X/yHCtCHvNtH7ucl3c2QQlpibsqxTWYx&#13;
+UwR2BrELaj2rkXJ3TLcmJJHXRQOleFzYG8ZbhMEfLKyIb6A76NuuS0pxkDB2SvRaHD1sFZ1oVJx9&#13;
+Qe1PR5BqwZ4Q9CIXCdcR0Z+DUJ/BKsErpQ1hhEX/Fyl54WDlWd3d3mqippYKt9RaSQ6cRYDRUdU3&#13;
+gIXF5iPHtFQ84EL+gVgriB4APwGotm5dXldEfA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -407,4 +407,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_241115cb-7467-4b4e-afa9-35c30839a3dc" Target="#_032ceffd-c388-419f-b25c-c0008cd0abd5"><Timestamp>2023-09-27 07:34:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c6e0e30c-164e-4200-9a3f-92b70b254056" Target="#_14ab6ba3-2d2e-4656-9867-0764d7a759d4"><Timestamp>2023-09-27 23:33:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,5 +1,66 @@
 {
   "migrationTask" : [ {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTDataEncryptAndDecryptParamTask",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTDataMaskAddParamTask",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTMatchGroupOutPutSchemaTask",
+    "breaks" : "6.3.1",
+    "version" : "6.3.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTMultiPatternCheckTask",
+    "breaks" : "5.6.0",
+    "version" : "5.6.0",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTMultiPatternTableParamTask",
+    "breaks" : "6.4.0",
+    "version" : "6.4.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTPatternParamTask",
+    "breaks" : "6.4.0",
+    "version" : "6.4.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTStandadizePhoneNumberTask",
+    "version" : "7.4.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTmatchGroupComputeGrpQualityParamTask",
+    "breaks" : "6.5.1",
+    "version" : "6.5.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTmatchGroupGIDLengthTask",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdateTmatchGroupMRParamTask",
+    "breaks" : "6.2.2",
+    "version" : "6.2.2",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdatetMelissaDataAddressTask",
+    "breaks" : "6.3.0",
+    "version" : "6.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdatetNaivebayseModelSparkVersionTask",
+    "breaks" : "6.3.0",
+    "version" : "6.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.datacleansing.core.migration.UpdatetPredictSparkVersionTask",
+    "breaks" : "6.2.2",
+    "version" : "6.2.2",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.designer.core.generic.model.migration.ChangeDBConnectionToJDBCTypeMigrationTask",
     "breaks" : "8.0.0",
     "version" : "8.0.1",
@@ -134,6 +195,11 @@
     "breaks" : "8.0.1",
     "version" : "8.0.1",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.docker.migrationtask.UpdateJobPomPropertiesMigrationTask",
+    "breaks" : "7.0.1",
+    "version" : "7.0.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.designer.esb.webservice.ConsumerFaultResponseMigrationTask",
     "breaks" : "5.1.1",
@@ -2338,6 +2404,16 @@
     "id" : "org.talend.sdk.component.studio.metadata.migration.UpdateEncryptTckMetadataMigrationTask",
     "breaks" : "8.0.0",
     "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.testcontainer.core.ui.migration.TestCaseParentVersionMigrationTask",
+    "breaks" : "6.1.1",
+    "version" : "6.1.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.testcontainer.core.ui.migration.TestCaseRoutinesMigrationTask",
+    "breaks" : "6.1.1",
+    "version" : "7.2.1",
     "status" : "noimpact"
   } ]
 }
