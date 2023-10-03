@@ -504,5 +504,131 @@
       "id" : "_pxphNtH1Ee2Vhc3_TrM1-Q",
       "name" : "wrkNonPoTbl"
     } ]
+  }, {
+    "contextName" : "cloud",
+    "repoId" : "_hFHP4NHqEe2dYNiC7nObeA",
+    "parameterList" : [ {
+      "id" : "_hFbY89HqEe2dYNiC7nObeA",
+      "name" : "exRunDate"
+    } ]
+  }, {
+    "contextName" : "cloud",
+    "repoId" : "_nRF2gNHVEe2ddt47PzgGCA",
+    "parameterList" : [ {
+      "id" : "_nRZYgtHVEe2ddt47PzgGCA",
+      "name" : "stgPoTbl"
+    }, {
+      "id" : "_o04VgNnNEe2ztuPBAQVphQ",
+      "name" : "stgVendorTbl"
+    }, {
+      "id" : "_nRZYiNHVEe2ddt47PzgGCA",
+      "name" : "stgPayeeTbl"
+    }, {
+      "id" : "_8qfxoNpoEe2FapR2PcKh3Q",
+      "name" : "appAuditTbl"
+    }, {
+      "id" : "_nRZYg9HVEe2ddt47PzgGCA",
+      "name" : "stgCalendarTbl"
+    }, {
+      "id" : "_DGh_0N5tEe2dXqtl8Ek3iQ",
+      "name" : "stgApAgingXrfTbl"
+    }, {
+      "id" : "_PvjhcOAQEe28gumX2NJ0_w",
+      "name" : "corApAgingXrfTbl"
+    }, {
+      "id" : "_nRZYhdHVEe2ddt47PzgGCA",
+      "name" : "stgTransStatusTbl"
+    }, {
+      "id" : "_nRZYh9HVEe2ddt47PzgGCA",
+      "name" : "stgTransTypeTbl"
+    }, {
+      "id" : "_ST6DsN9DEe2sj9JNBsL5DA",
+      "name" : "stgPoXrfTbl"
+    }, {
+      "id" : "_LmxT4NjNEe2gHeFGiYWPsQ",
+      "name" : "wrkPoTbl"
+    }, {
+      "id" : "_nRZYidHVEe2ddt47PzgGCA",
+      "name" : "stgCompanyTbl"
+    }, {
+      "id" : "_XDkhoOAQEe28gumX2NJ0_w",
+      "name" : "corApAgingTbl"
+    }, {
+      "id" : "_S0VPMNf7Ee2wndaviVfm5A",
+      "name" : "stgMixedTrans"
+    }, {
+      "id" : "_o04VgdnNEe2ztuPBAQVphQ",
+      "name" : "corVendorListTbl"
+    }, {
+      "id" : "_tvPvINNpEe2wB_cWaane0w",
+      "name" : "corPoTbl"
+    }, {
+      "id" : "_nRZYgdHVEe2ddt47PzgGCA",
+      "name" : "stgNonPoTbl"
+    }, {
+      "id" : "_nRZYhtHVEe2ddt47PzgGCA",
+      "name" : "stgTransStepTbl"
+    }, {
+      "id" : "_SrlFMNpTEe2S_LqoIxnXtw",
+      "name" : "stgSapPoHistTrans"
+    }, {
+      "id" : "_nRZYhNHVEe2ddt47PzgGCA",
+      "name" : "stgApAgingTbl"
+    }, {
+      "id" : "_pxphMdH1Ee2Vhc3_TrM1-Q",
+      "name" : "corNonPoTbl"
+    }, {
+      "id" : "_6-yc8NgnEe2iON4Nh7J48g",
+      "name" : "stgSapPoTrans"
+    }, {
+      "id" : "_pxphMNH1Ee2Vhc3_TrM1-Q",
+      "name" : "wrkNonPoTbl"
+    } ]
+  }, {
+    "contextName" : "cloud",
+    "repoId" : "_EgMDYNHVEe2ddt47PzgGCA",
+    "parameterList" : [ {
+      "id" : "_pzwIsWGtEe6PrtpB8YoOmA",
+      "name" : "sfServerName"
+    }, {
+      "id" : "_pzwIsmGtEe6PrtpB8YoOmA",
+      "name" : "sfUserName"
+    }, {
+      "id" : "_pzwIs2GtEe6PrtpB8YoOmA",
+      "name" : "sfPassword"
+    }, {
+      "id" : "_pzwItGGtEe6PrtpB8YoOmA",
+      "name" : "sfWarehouse"
+    }, {
+      "id" : "_pzwItWGtEe6PrtpB8YoOmA",
+      "name" : "sfSchema"
+    }, {
+      "id" : "_pzwItmGtEe6PrtpB8YoOmA",
+      "name" : "sfDatabase"
+    }, {
+      "id" : "_pzwIt2GtEe6PrtpB8YoOmA",
+      "name" : "sfStgSchema"
+    }, {
+      "id" : "_pzwIuGGtEe6PrtpB8YoOmA",
+      "name" : "sfWrkSchema"
+    }, {
+      "id" : "_pzwIuWGtEe6PrtpB8YoOmA",
+      "name" : "sfCoreSchema"
+    }, {
+      "id" : "_pzwIumGtEe6PrtpB8YoOmA",
+      "name" : "sfPresSchema"
+    }, {
+      "id" : "_pzwIu2GtEe6PrtpB8YoOmA",
+      "name" : "sfRole"
+    }, {
+      "id" : "_pzwIvGGtEe6PrtpB8YoOmA",
+      "name" : "sfJdbcUrl"
+    }, {
+      "id" : "_pzwIvWGtEe6PrtpB8YoOmA",
+      "name" : "sfJdbcDriverClass"
+    }, {
+      "id" : "_pzwIvmGtEe6PrtpB8YoOmA",
+      "name" : "sfAppSchema"
+    } ]
   } ]
 }
