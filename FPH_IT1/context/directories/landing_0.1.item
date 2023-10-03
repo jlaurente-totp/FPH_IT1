@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
-  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_uU53gNHVEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="cloud" xmi:id="_8M6UgGGxEe66jKBMk6biLg">
+    <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/in/" xmi:id="_8M6UgWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/reject/" xmi:id="_8M6UgmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/out/" xmi:id="_8M6Ug2GxEe66jKBMk6biLg"/>
+    <contextParameter comment="" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/" xmi:id="_8M6UhGGxEe66jKBMk6biLg"/>
+    <contextParameter comment="" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/" xmi:id="_8M6UhWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/" xmi:id="_8M6UhmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/arrival/" xmi:id="_8M6Uh2GxEe66jKBMk6biLg"/>
+    <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/talend/fgen/logs/" xmi:id="_8M6UiGGxEe66jKBMk6biLg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_uU53gNHVEe2ddt47PzgGCA">
     <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_uU53gdHVEe2ddt47PzgGCA"/>
     <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu4NNoEe2wB_cWaane0w"/>
     <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu4dNoEe2wB_cWaane0w"/>
@@ -9,7 +19,7 @@
     <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mkN13Ee29McDk2woBAg"/>
     <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK4N_hEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-  <talendfile:ContextType confirmationNeeded="false" name="devl" xmi:id="_Yeye0NHgEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="devl" xmi:id="_Yeye0NHgEe2ddt47PzgGCA">
     <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_Yeye0dHgEe2ddt47PzgGCA"/>
     <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu4tNoEe2wB_cWaane0w"/>
     <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu49NoEe2wB_cWaane0w"/>
@@ -19,7 +29,7 @@
     <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mkd13Ee29McDk2woBAg"/>
     <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK4d_hEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_Yeye0tHgEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_Yeye0tHgEe2ddt47PzgGCA">
     <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_Yeye09HgEe2ddt47PzgGCA"/>
     <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu5NNoEe2wB_cWaane0w"/>
     <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu5dNoEe2wB_cWaane0w"/>
@@ -29,7 +39,7 @@
     <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mkt13Ee29McDk2woBAg"/>
     <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK4t_hEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-  <talendfile:ContextType confirmationNeeded="false" name="qual" xmi:id="_Yeye1NHgEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="qual" xmi:id="_Yeye1NHgEe2ddt47PzgGCA">
     <contextParameter comment="" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/in/&quot;" xmi:id="_Yeye1dHgEe2ddt47PzgGCA"/>
     <contextParameter comment="" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/reject/&quot;" xmi:id="_19Qu5tNoEe2wB_cWaane0w"/>
     <contextParameter comment="" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/out/&quot;" xmi:id="_19Qu59NoEe2wB_cWaane0w"/>
@@ -39,13 +49,13 @@
     <contextParameter comment="" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/arrival/&quot;" xmi:id="_LI5mk913Ee29McDk2woBAg"/>
     <contextParameter comment="" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/talend/fgen/logs/&quot;" xmi:id="_8PUK49_hEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b236af0e-4354-411c-a7cd-0d5c877aa75f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3EwA/4S7C9VyalXIc/agaP+tqsYBoKmhZHNQ13oq806ToASo91ohN4YoqnsmVWzs10c20d983WhW&#13;
-+eJ606GMLA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_412393b0-0cb1-45cc-95ef-d06d0dad7ea6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vZj91y4xQBFsXpT+FhWMFiF63FfpJ+a3pNGOINyEVGyRQX3YjLeLB/jQ8c2i1Uf2LF2M3DjNP3tz&#13;
-w70hYHzzOg==</DigestValue></Reference></SignedInfo><SignatureValue>Gq4N3/4pmIQY4ymQI513ODF79yDCh2LMJiKnSrAvWZsbrxC4gZPgcG5xMph8Btg2C8o5aY95zyo9&#13;
-lmB12MUt5lJz4e1SOAeUogWIc58QKLnIshUC8nfrUc4+9rJzBQB+Zkcn6cVsJ0bMa/KHg95cNQSq&#13;
-cM8mKkbyQAjPtDgaeKzRLYP2fZLLd6A8zMHsmeIzS2sp2Q3YJieLrnxEmVFzxMQ7Cg6jrrQ6jzxK&#13;
-D6Ha/fHRt3aMGi9VkrdUqea2p/UthAeKafztDfNWewacz/ZvPijXipN7t7pf9IKZyk7K22Bke/Re&#13;
-qrrk1x0R10klrKT+Yham4TgeAUtSM9TEcrAJ5Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b5308d9b-9994-41f6-9a35-a9a41a32eb21"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4SUeM8v2OCGYplhee/AiBfFAwhAruTFRifJoj6Ge8bWQqL8s2Zu1CJ5qqKvXvTDkcr1vflQkyRIV&#13;
+0YBrVgt/8g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9de88f47-62f9-4c3c-b551-84f8f13756fb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ft8sunL54pCX1dKJmtbDq9T4Z1/s9Y6t0tChHWgXjG4HsXtzFCJVvMQ67BBaGXbSmwXQBUwt14Rm&#13;
+dS0KaGwaXQ==</DigestValue></Reference></SignedInfo><SignatureValue>pOVWG2AWCm+Qw25HlIM2JDYLETR1ufToeyYc3KZg9f92N8+yKiU+ud+x9ytMj2kDVTU1/SpnGFkB&#13;
+8mYYv/l/oob0IaTHuoRqrxWp/4l+eGf0kyM/wVYFl7tIw05LYPbul6R4ME1ztv/uwB0YVq3/4cNM&#13;
+fcPFeFHI0hYvqwJ5m2juS+4WwCb6zbdLpRjYDggJmpOEqRZQsu1FRyoaE/INaelqCHcCrVZ2xr+N&#13;
+QfWxaCzK/x9FF8CD7KSEHHv8+XyQFxbBLYtI3rZSWhZEN45Hhny2cjEvRJlOTh2Ad0hjVo08SzSi&#13;
+WqE1mOxnIA2tuRG+Yp/RIcjNBBH9J7f+CEvchg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -67,4 +77,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_412393b0-0cb1-45cc-95ef-d06d0dad7ea6" Target="#_b236af0e-4354-411c-a7cd-0d5c877aa75f"><Timestamp>2023-09-27 07:34:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9de88f47-62f9-4c3c-b551-84f8f13756fb" Target="#_b5308d9b-9994-41f6-9a35-a9a41a32eb21"><Timestamp>2023-10-03 05:28:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

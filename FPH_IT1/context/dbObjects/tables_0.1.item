@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
-  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_nRZYgNHVEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="cloud" xmi:id="_fnCgQGGxEe66jKBMk6biLg">
+    <contextParameter comment="FPH+FPRC NONPO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_nonpo_transactions_v6_stg" xmi:id="_fnCgQWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="FPH+FPRC PO transactions staging table" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_po_transactions_v6_stg" xmi:id="_fnCgQmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Calendar staging table" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="calendar_stg" xmi:id="_fnCgQ2GxEe66jKBMk6biLg"/>
+    <contextParameter comment="AP Aging staging table" name="stgApAgingTbl" prompt="stgApAgingTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_ap_aging_v6_stg" xmi:id="_fnCgRGGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Transaction Status staging table" name="stgTransStatusTbl" prompt="stgTransStatusTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="transaction_status_stg" xmi:id="_fnCgRWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Transaction Step staging table" name="stgTransStepTbl" prompt="stgTransStepTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="transaction_step_stg" xmi:id="_fnCgRmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Transaction Type staging table" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="transaction_type_stg" xmi:id="_fnCgR2GxEe66jKBMk6biLg"/>
+    <contextParameter comment="Payee staging table" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="payee_stg" xmi:id="_fnCgSGGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Company staging table" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="company_stg" xmi:id="_fnCgSWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Work table for NONPO Transactions" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_nonpo_transactions_v6_wrk" xmi:id="_fnCgSmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Core table for NONPO Transactions" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_nonpo_transactions_v6" xmi:id="_fnCgS2GxEe66jKBMk6biLg"/>
+    <contextParameter comment="Core table for PO Transactions" name="corPoTbl" prompt="corPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_po_transactions_v6" xmi:id="_fnCgTGGxEe66jKBMk6biLg"/>
+    <contextParameter comment="FPIP+FUI Transactions staging table" name="stgMixedTrans" prompt="stgMixedTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mixed_transactions_v6_stg" xmi:id="_fnCgTWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="SAP PO Transactions table" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_sap_po_transactions_v6_stg" xmi:id="_fnCgTmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Work table for PO Transactions" name="wrkPoTbl" prompt="wrkPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_po_transactions_v6_wrk" xmi:id="_fnCgT2GxEe66jKBMk6biLg"/>
+    <contextParameter comment="Vendor List Staging Table" name="stgVendorTbl" prompt="stgVendorTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="vendor_list_v6_stg" xmi:id="_fnCgUGGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Vendor List Core Table" name="corVendorListTbl" prompt="corVendorListTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="vendor" xmi:id="_fnCgUWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="SAP PO Trans Hist table" name="stgSapPoHistTrans" prompt="stgSapPoHistTrans?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_sap_po_trans_hist_v6_stg" xmi:id="_fnCgUmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="Audit Table" name="appAuditTbl" prompt="appAuditTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="audit_log" xmi:id="_fnCgU2GxEe66jKBMk6biLg"/>
+    <contextParameter comment="AP Aging Cross Reference STG Table" name="stgApAgingXrfTbl" prompt="stgApAgingXrfTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_ap_aging_xref_stg" xmi:id="_fnCgVGGxEe66jKBMk6biLg"/>
+    <contextParameter comment="FPIP+FUI PO Cross Reference Table" name="stgPoXrfTbl" prompt="stgPoXrfTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_po_xref_stg" xmi:id="_fnCgVWGxEe66jKBMk6biLg"/>
+    <contextParameter comment="AP Aging Cross Reference CORE Table" name="corApAgingXrfTbl" prompt="corApAgingXrfTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_ap_aging_xref" xmi:id="_fnCgVmGxEe66jKBMk6biLg"/>
+    <contextParameter comment="AP Aging Core table" name="corApAgingTbl" prompt="corApAgingTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="poc_ap_aging_v6" xmi:id="_fnCgV2GxEe66jKBMk6biLg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_nRZYgNHVEe2ddt47PzgGCA">
     <contextParameter comment="FPH+FPRC NONPO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v6_stg&quot;" xmi:id="_nRZYgdHVEe2ddt47PzgGCA"/>
     <contextParameter comment="FPH+FPRC PO transactions staging table" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_po_transactions_v6_stg&quot;" xmi:id="_nRZYgtHVEe2ddt47PzgGCA"/>
     <contextParameter comment="Calendar staging table" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;calendar_stg&quot;" xmi:id="_nRZYg9HVEe2ddt47PzgGCA"/>
@@ -24,7 +49,7 @@
     <contextParameter comment="AP Aging Cross Reference CORE Table" name="corApAgingXrfTbl" prompt="corApAgingXrfTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_xref&quot;" xmi:id="_PvjhcOAQEe28gumX2NJ0_w"/>
     <contextParameter comment="AP Aging Core table" name="corApAgingTbl" prompt="corApAgingTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_v6&quot;" xmi:id="_XDkhoOAQEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-  <talendfile:ContextType confirmationNeeded="false" name="devl" xmi:id="_UzOMANHgEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="devl" xmi:id="_UzOMANHgEe2ddt47PzgGCA">
     <contextParameter comment="FPH+FPRC NONPO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v6_stg&quot;" xmi:id="_UzOMAdHgEe2ddt47PzgGCA"/>
     <contextParameter comment="FPH+FPRC PO transactions staging table" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_po_transactions_v6_stg&quot;" xmi:id="_UzOMAtHgEe2ddt47PzgGCA"/>
     <contextParameter comment="Calendar staging table" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;calendar_stg&quot;" xmi:id="_UzOMA9HgEe2ddt47PzgGCA"/>
@@ -49,7 +74,7 @@
     <contextParameter comment="AP Aging Cross Reference CORE Table" name="corApAgingXrfTbl" prompt="corApAgingXrfTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_xref&quot;" xmi:id="_PvjhceAQEe28gumX2NJ0_w"/>
     <contextParameter comment="AP Aging Core table" name="corApAgingTbl" prompt="corApAgingTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_v6&quot;" xmi:id="_XDkhoeAQEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_UzOMCtHgEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_UzOMCtHgEe2ddt47PzgGCA">
     <contextParameter comment="FPH+FPRC NONPO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v6_stg&quot;" xmi:id="_UzOMC9HgEe2ddt47PzgGCA"/>
     <contextParameter comment="FPH+FPRC PO transactions staging table" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_po_transactions_v6_stg&quot;" xmi:id="_UzOMDNHgEe2ddt47PzgGCA"/>
     <contextParameter comment="Calendar staging table" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;calendar_stg&quot;" xmi:id="_UzOMDdHgEe2ddt47PzgGCA"/>
@@ -74,7 +99,7 @@
     <contextParameter comment="AP Aging Cross Reference CORE Table" name="corApAgingXrfTbl" prompt="corApAgingXrfTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_xref&quot;" xmi:id="_PvjhcuAQEe28gumX2NJ0_w"/>
     <contextParameter comment="AP Aging Core table" name="corApAgingTbl" prompt="corApAgingTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_v6&quot;" xmi:id="_XDkhouAQEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-  <talendfile:ContextType confirmationNeeded="false" name="qual" xmi:id="_UzOMFNHgEe2ddt47PzgGCA">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="qual" xmi:id="_UzOMFNHgEe2ddt47PzgGCA">
     <contextParameter comment="FPH+FPRC NONPO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v6_stg&quot;" xmi:id="_UzOMFdHgEe2ddt47PzgGCA"/>
     <contextParameter comment="FPH+FPRC PO transactions staging table" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_po_transactions_v6_stg&quot;" xmi:id="_UzOMFtHgEe2ddt47PzgGCA"/>
     <contextParameter comment="Calendar staging table" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;calendar_stg&quot;" xmi:id="_UzOMF9HgEe2ddt47PzgGCA"/>
@@ -99,13 +124,13 @@
     <contextParameter comment="AP Aging Cross Reference CORE Table" name="corApAgingXrfTbl" prompt="corApAgingXrfTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_xref&quot;" xmi:id="_Pvjhc-AQEe28gumX2NJ0_w"/>
     <contextParameter comment="AP Aging Core table" name="corApAgingTbl" prompt="corApAgingTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_ap_aging_v6&quot;" xmi:id="_XDkho-AQEe28gumX2NJ0_w"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_94bbf4fa-03e2-4644-b33e-5ee3b8d65083"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5buWxAlOsqtWHwZaMCkUKLWtBK85kVd0l6gywrbLX+Ex5nQ2pbFHz0c8r2HI6o472D/hevUeUruB&#13;
-inh1N8wKsw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_354d2763-cb5f-4bfe-a21b-ca04799ba496"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zWEoc5hxBBUNsx//yKfNEQfh2Zx3zqrmTZg7ag/5WLxAOrN38MsRjSqS1xzkb+ko20EJHLWidoVh&#13;
-QnM9zMwLDQ==</DigestValue></Reference></SignedInfo><SignatureValue>VZaeid7L4Te/DjXWzY43cpvpGxSb9D4qUZ2Do18KKNXXxLfLDl2XBhurvhtridixFhyTAY4vZ5B0&#13;
-koKhiPL99xUGp/GkTWQR311z7Af4ST8ZR0TVrnePvdfNaQN+VSKPanYcGdN66Wo0RGeTjM7qBoDb&#13;
-/rbrynTfJUcyA0smw1y4m7t9jt+gFIepW9KhLVj1ltBtjY8uehHP+fj65htE+I+QXxo4DD+L4jut&#13;
-BGHDbaTXqjPoNaTJo8KbNlfl1EPAtlCovAJXuy4qesLuSAjZWvfuLF7rsolmH++8leP1KQ7sRfVG&#13;
-LfEAMCU1LN4LkBrXgsK6hhbKMpoHy5QL7+kbUQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7b954236-a9d0-4f8b-954b-bba274b75937"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Fc3hBoHM4kunwyUvE8UlkW4Wdu5jQ2JM66rk2tN4WU8warJ60olfYUJQgDcvyMGqyWznAM9e2kxD&#13;
+iK/qK2FZzA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_55336b10-3b8b-4684-9bc2-bc3e1fef66ad"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hiFIAn2jezhqgn87vuLD28y1gdxwwqo5kUjj9N8icRZaCUpleq0+ZZlc2l0sTEZJUiG3dbOqL7WT&#13;
+0Aog9La4Cw==</DigestValue></Reference></SignedInfo><SignatureValue>QJ5gw4rrvUnNEC3rhHUIq6bB0/0AB9uZeOT4wi1cKPwxUYb+K7qp543RxbgsrV5ouF2N619/97I+&#13;
+EX2b+Gf7zknu31UgUdqSinp16i17jvPKnzjLs1rRYtAKU8mRHqtx0qbnCTlCE+mx2uooZkQRxZ9W&#13;
+/lq1dzkF5Gh6MK5Pz2FuRxeGhuS+koIMCJLq6o6xFczVJy7ReSKLVxHNSd26n7xVsEQ4rn/ADsFQ&#13;
+FPKzodjmuzHD9KnFyASpDPDeX1X8hxUcWQgUngkbe99pfM/7AO+7ArZ3UYCuXNY+m5sXET4mfgbm&#13;
+NT3Vri+vw0PywTuaUlxyTmaX/fuBRvAqcW6ppA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -127,4 +152,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_354d2763-cb5f-4bfe-a21b-ca04799ba496" Target="#_94bbf4fa-03e2-4644-b33e-5ee3b8d65083"><Timestamp>2023-09-27 07:34:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_55336b10-3b8b-4684-9bc2-bc3e1fef66ad" Target="#_7b954236-a9d0-4f8b-954b-bba274b75937"><Timestamp>2023-10-03 05:25:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
