@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="cloud" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="cloud">
+    <contextParameter comment="FPH+FPRC PO transactions staging table" internalId="_o9--UGGtEe6PrtpB8YoOmA" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_stg"/>
+    <contextParameter comment="FPH+FPRC NONPO transactions staging table" internalId="_o9--UWGtEe6PrtpB8YoOmA" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_stg"/>
+    <contextParameter comment="Payee staging table" internalId="_o9--UmGtEe6PrtpB8YoOmA" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="payee_stg"/>
+    <contextParameter comment="Calendar staging table" internalId="_o9--U2GtEe6PrtpB8YoOmA" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="calendar_stg"/>
+    <contextParameter comment="Transaction Status staging table" internalId="_o9--VGGtEe6PrtpB8YoOmA" name="stgTransStatusTbl" prompt="stgTransStatusTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_status_stg"/>
+    <contextParameter comment="Transaction Step staging table" internalId="_o9--VWGtEe6PrtpB8YoOmA" name="stgTransStepTbl" prompt="stgTransStepTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_step_stg"/>
+    <contextParameter comment="AP Aging staging table" internalId="_o9--VmGtEe6PrtpB8YoOmA" name="stgApAgingTbl" prompt="stgApAgingTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_ap_aging_v6_stg"/>
+    <contextParameter comment="Transaction Type staging table" internalId="_o9--V2GtEe6PrtpB8YoOmA" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_type_stg"/>
+    <contextParameter comment="Core table for NONPO Transactions" internalId="_o9--WGGtEe6PrtpB8YoOmA" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6"/>
+    <contextParameter comment="Company staging table" internalId="_o9--WWGtEe6PrtpB8YoOmA" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="company_stg"/>
+    <contextParameter comment="Work table for NONPO Transactions" internalId="_o9--WmGtEe6PrtpB8YoOmA" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_wrk"/>
+    <contextParameter comment="Run Date in ISO Format" internalId="_o9--W2GtEe6PrtpB8YoOmA" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_o9--XGGtEe6PrtpB8YoOmA" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_po_load"/>
+    <contextParameter comment="" internalId="_o9--XWGtEe6PrtpB8YoOmA" name="spPocStgToCoreNonPoLoad" prompt="spPocStgToCoreNonPoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_nonpo_load"/>
+    <contextParameter comment="Vendor List Staging Table" internalId="_o9--XmGtEe6PrtpB8YoOmA" name="stgVendorTbl" prompt="stgVendorTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor_list_v6_stg"/>
+    <contextParameter comment="Audit Table" internalId="_o9--X2GtEe6PrtpB8YoOmA" name="appAuditTbl" prompt="appAuditTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="audit_log"/>
+    <contextParameter comment="Work table for PO Transactions" internalId="_o9--YGGtEe6PrtpB8YoOmA" name="wrkPoTbl" prompt="wrkPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_wrk"/>
+    <contextParameter comment="FPIP+FUI Transactions staging table" internalId="_o9--YWGtEe6PrtpB8YoOmA" name="stgMixedTrans" prompt="stgMixedTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="mixed_transactions_v6_stg"/>
+    <contextParameter comment="Vendor List Core Table" internalId="_o9--YmGtEe6PrtpB8YoOmA" name="corVendorListTbl" prompt="corVendorListTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor"/>
+    <contextParameter comment="Core table for PO Transactions" internalId="_o9--Y2GtEe6PrtpB8YoOmA" name="corPoTbl" prompt="corPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6"/>
+    <contextParameter comment="SAP PO Trans Hist table" internalId="_o9--ZGGtEe6PrtpB8YoOmA" name="stgSapPoHistTrans" prompt="stgSapPoHistTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_trans_hist_v6_stg"/>
+    <contextParameter comment="SAP PO Transactions table" internalId="_o9--ZWGtEe6PrtpB8YoOmA" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_transactions_v6_stg"/>
+    <contextParameter comment="" internalId="_o9--ZmGtEe6PrtpB8YoOmA" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/in/"/>
+    <contextParameter comment="" internalId="_o9--Z2GtEe6PrtpB8YoOmA" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/out/"/>
+    <contextParameter comment="" internalId="_o9--aGGtEe6PrtpB8YoOmA" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/"/>
+    <contextParameter comment="" internalId="_o9--aWGtEe6PrtpB8YoOmA" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/"/>
+    <contextParameter comment="" internalId="_o9--amGtEe6PrtpB8YoOmA" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/logs/"/>
+    <contextParameter comment="" internalId="_o9--a2GtEe6PrtpB8YoOmA" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/reject/"/>
+    <contextParameter comment="" internalId="_o9--bGGtEe6PrtpB8YoOmA" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/"/>
+    <contextParameter comment="" internalId="_o9--bWGtEe6PrtpB8YoOmA" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/"/>
+    <contextParameter comment="Snowflake Locator" internalId="_o9--bmGtEe6PrtpB8YoOmA" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="qq98815.ap-southeast-1"/>
+    <contextParameter comment="Snowflake Username" internalId="_o9--b2GtEe6PrtpB8YoOmA" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jlaurente"/>
+    <contextParameter comment="Snowflake Password" internalId="_o9--cGGtEe6PrtpB8YoOmA" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:xjn5TFPpzizMjdEIF9SfI3AdhMOKA3n++7Yc0Qxh/I/7lMtLeSm9gJXYEQbxvA=="/>
+    <contextParameter comment="Snowflake Default Warehouse" internalId="_o9--cWGtEe6PrtpB8YoOmA" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="COMPUTE_WH"/>
+    <contextParameter comment="Snowflake Default Schema" internalId="_o9--cmGtEe6PrtpB8YoOmA" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PUBLIC"/>
+    <contextParameter comment="Snowflake Default Database" internalId="_o9--c2GtEe6PrtpB8YoOmA" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="QUAL"/>
+    <contextParameter comment="Snowflake Staging Area" internalId="_o9--dGGtEe6PrtpB8YoOmA" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="STG"/>
+    <contextParameter comment="Snowflake Work Area" internalId="_o9--dWGtEe6PrtpB8YoOmA" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="WRK"/>
+    <contextParameter comment="Snowflake Core Zone" internalId="_o9--dmGtEe6PrtpB8YoOmA" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="CORE"/>
+    <contextParameter comment="Snowflake Reporting Layer" internalId="_o9--d2GtEe6PrtpB8YoOmA" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PRES"/>
+    <contextParameter comment="Snowflake Default Role" internalId="_o9--eGGtEe6PrtpB8YoOmA" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="ACCOUNTADMIN"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_o9--eWGtEe6PrtpB8YoOmA" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/"/>
+    <contextParameter comment="Snowflake Driver Class Name" internalId="_o9--emGtEe6PrtpB8YoOmA" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+    <contextParameter comment="Snowflake Application Schema" internalId="_o9--e2GtEe6PrtpB8YoOmA" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="appl"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="devl">
+    <contextParameter comment="FPH+FPRC PO transactions staging table" internalId="_ehpYsGJlEe6F44U7lhY5eg" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_stg"/>
+    <contextParameter comment="FPH+FPRC NONPO transactions staging table" internalId="_ehpYsWJlEe6F44U7lhY5eg" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_stg"/>
+    <contextParameter comment="Payee staging table" internalId="_ehpYsmJlEe6F44U7lhY5eg" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="payee_stg"/>
+    <contextParameter comment="Calendar staging table" internalId="_ehpYs2JlEe6F44U7lhY5eg" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="calendar_stg"/>
+    <contextParameter comment="Transaction Status staging table" internalId="_ehpYtGJlEe6F44U7lhY5eg" name="stgTransStatusTbl" prompt="stgTransStatusTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_status_stg"/>
+    <contextParameter comment="Transaction Step staging table" internalId="_ehpYtWJlEe6F44U7lhY5eg" name="stgTransStepTbl" prompt="stgTransStepTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_step_stg"/>
+    <contextParameter comment="AP Aging staging table" internalId="_ehpYtmJlEe6F44U7lhY5eg" name="stgApAgingTbl" prompt="stgApAgingTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_ap_aging_v6_stg"/>
+    <contextParameter comment="Transaction Type staging table" internalId="_ehpYt2JlEe6F44U7lhY5eg" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_type_stg"/>
+    <contextParameter comment="Core table for NONPO Transactions" internalId="_ehpYuGJlEe6F44U7lhY5eg" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6"/>
+    <contextParameter comment="Company staging table" internalId="_ehpYuWJlEe6F44U7lhY5eg" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="company_stg"/>
+    <contextParameter comment="Work table for NONPO Transactions" internalId="_ehpYumJlEe6F44U7lhY5eg" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_wrk"/>
+    <contextParameter comment="Run Date in ISO Format" internalId="_ehpYu2JlEe6F44U7lhY5eg" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ehpYvGJlEe6F44U7lhY5eg" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_po_load"/>
+    <contextParameter comment="" internalId="_ehpYvWJlEe6F44U7lhY5eg" name="spPocStgToCoreNonPoLoad" prompt="spPocStgToCoreNonPoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_nonpo_load"/>
+    <contextParameter comment="Vendor List Staging Table" internalId="_ehpYvmJlEe6F44U7lhY5eg" name="stgVendorTbl" prompt="stgVendorTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor_list_v6_stg"/>
+    <contextParameter comment="Audit Table" internalId="_ehpYv2JlEe6F44U7lhY5eg" name="appAuditTbl" prompt="appAuditTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="audit_log"/>
+    <contextParameter comment="Work table for PO Transactions" internalId="_ehpYwGJlEe6F44U7lhY5eg" name="wrkPoTbl" prompt="wrkPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_wrk"/>
+    <contextParameter comment="FPIP+FUI Transactions staging table" internalId="_ehpYwWJlEe6F44U7lhY5eg" name="stgMixedTrans" prompt="stgMixedTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="mixed_transactions_v6_stg"/>
+    <contextParameter comment="Vendor List Core Table" internalId="_ehpYwmJlEe6F44U7lhY5eg" name="corVendorListTbl" prompt="corVendorListTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor"/>
+    <contextParameter comment="Core table for PO Transactions" internalId="_ehpYw2JlEe6F44U7lhY5eg" name="corPoTbl" prompt="corPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6"/>
+    <contextParameter comment="SAP PO Trans Hist table" internalId="_ehpYxGJlEe6F44U7lhY5eg" name="stgSapPoHistTrans" prompt="stgSapPoHistTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_trans_hist_v6_stg"/>
+    <contextParameter comment="SAP PO Transactions table" internalId="_ehpYxWJlEe6F44U7lhY5eg" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_transactions_v6_stg"/>
+    <contextParameter comment="Snowflake Locator" internalId="_ehpYxmJlEe6F44U7lhY5eg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="qq98815.ap-southeast-1"/>
+    <contextParameter comment="Snowflake Username" internalId="_ehpYx2JlEe6F44U7lhY5eg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jlaurente"/>
+    <contextParameter comment="Snowflake Password" internalId="_ehpYyGJlEe6F44U7lhY5eg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:xjn5TFPpzizMjdEIF9SfI3AdhMOKA3n++7Yc0Qxh/I/7lMtLeSm9gJXYEQbxvA=="/>
+    <contextParameter comment="Snowflake Default Warehouse" internalId="_ehpYyWJlEe6F44U7lhY5eg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="COMPUTE_WH"/>
+    <contextParameter comment="Snowflake Default Schema" internalId="_ehpYymJlEe6F44U7lhY5eg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PUBLIC"/>
+    <contextParameter comment="Snowflake Default Database" internalId="_ehpYy2JlEe6F44U7lhY5eg" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="QUAL"/>
+    <contextParameter comment="Snowflake Staging Area" internalId="_ehpYzGJlEe6F44U7lhY5eg" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="STG"/>
+    <contextParameter comment="Snowflake Work Area" internalId="_ehpYzWJlEe6F44U7lhY5eg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="WRK"/>
+    <contextParameter comment="Snowflake Core Zone" internalId="_ehpYzmJlEe6F44U7lhY5eg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="CORE"/>
+    <contextParameter comment="Snowflake Reporting Layer" internalId="_ehpYz2JlEe6F44U7lhY5eg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PRES"/>
+    <contextParameter comment="Snowflake Default Role" internalId="_ehpY0GJlEe6F44U7lhY5eg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="ACCOUNTADMIN"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_ehpY0WJlEe6F44U7lhY5eg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/"/>
+    <contextParameter comment="Snowflake Driver Class Name" internalId="_ehpY0mJlEe6F44U7lhY5eg" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+    <contextParameter comment="Snowflake Application Schema" internalId="_ehpY02JlEe6F44U7lhY5eg" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="appl"/>
+    <contextParameter comment="" internalId="_ehpY1GJlEe6F44U7lhY5eg" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/in/"/>
+    <contextParameter comment="" internalId="_ehpY1WJlEe6F44U7lhY5eg" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/reject/"/>
+    <contextParameter comment="" internalId="_ehpY1mJlEe6F44U7lhY5eg" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/out/"/>
+    <contextParameter comment="" internalId="_ehpY12JlEe6F44U7lhY5eg" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/"/>
+    <contextParameter comment="" internalId="_ehpY2GJlEe6F44U7lhY5eg" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/"/>
+    <contextParameter comment="" internalId="_ehpY2WJlEe6F44U7lhY5eg" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/"/>
+    <contextParameter comment="" internalId="_ehpY2mJlEe6F44U7lhY5eg" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/"/>
+    <contextParameter comment="" internalId="_ehpY22JlEe6F44U7lhY5eg" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/logs/"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="qual">
+    <contextParameter comment="FPH+FPRC PO transactions staging table" internalId="_ehpY3GJlEe6F44U7lhY5eg" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_stg"/>
+    <contextParameter comment="FPH+FPRC NONPO transactions staging table" internalId="_ehpY3WJlEe6F44U7lhY5eg" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_stg"/>
+    <contextParameter comment="Payee staging table" internalId="_ehpY3mJlEe6F44U7lhY5eg" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="payee_stg"/>
+    <contextParameter comment="Calendar staging table" internalId="_ehpY32JlEe6F44U7lhY5eg" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="calendar_stg"/>
+    <contextParameter comment="Transaction Status staging table" internalId="_ehpY4GJlEe6F44U7lhY5eg" name="stgTransStatusTbl" prompt="stgTransStatusTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_status_stg"/>
+    <contextParameter comment="Transaction Step staging table" internalId="_ehpY4WJlEe6F44U7lhY5eg" name="stgTransStepTbl" prompt="stgTransStepTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_step_stg"/>
+    <contextParameter comment="AP Aging staging table" internalId="_ehpY4mJlEe6F44U7lhY5eg" name="stgApAgingTbl" prompt="stgApAgingTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_ap_aging_v6_stg"/>
+    <contextParameter comment="Transaction Type staging table" internalId="_ehpY42JlEe6F44U7lhY5eg" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_type_stg"/>
+    <contextParameter comment="Core table for NONPO Transactions" internalId="_ehpY5GJlEe6F44U7lhY5eg" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6"/>
+    <contextParameter comment="Company staging table" internalId="_ehpY5WJlEe6F44U7lhY5eg" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="company_stg"/>
+    <contextParameter comment="Work table for NONPO Transactions" internalId="_ehpY5mJlEe6F44U7lhY5eg" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_wrk"/>
+    <contextParameter comment="Run Date in ISO Format" internalId="_ehpY52JlEe6F44U7lhY5eg" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ehpY6GJlEe6F44U7lhY5eg" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_po_load"/>
+    <contextParameter comment="" internalId="_ehpY6WJlEe6F44U7lhY5eg" name="spPocStgToCoreNonPoLoad" prompt="spPocStgToCoreNonPoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_nonpo_load"/>
+    <contextParameter comment="Vendor List Staging Table" internalId="_ehpY6mJlEe6F44U7lhY5eg" name="stgVendorTbl" prompt="stgVendorTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor_list_v6_stg"/>
+    <contextParameter comment="Audit Table" internalId="_ehpY62JlEe6F44U7lhY5eg" name="appAuditTbl" prompt="appAuditTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="audit_log"/>
+    <contextParameter comment="Work table for PO Transactions" internalId="_ehpY7GJlEe6F44U7lhY5eg" name="wrkPoTbl" prompt="wrkPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_wrk"/>
+    <contextParameter comment="FPIP+FUI Transactions staging table" internalId="_ehpY7WJlEe6F44U7lhY5eg" name="stgMixedTrans" prompt="stgMixedTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="mixed_transactions_v6_stg"/>
+    <contextParameter comment="Vendor List Core Table" internalId="_ehpY7mJlEe6F44U7lhY5eg" name="corVendorListTbl" prompt="corVendorListTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor"/>
+    <contextParameter comment="Core table for PO Transactions" internalId="_ehpY72JlEe6F44U7lhY5eg" name="corPoTbl" prompt="corPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6"/>
+    <contextParameter comment="SAP PO Trans Hist table" internalId="_ehpY8GJlEe6F44U7lhY5eg" name="stgSapPoHistTrans" prompt="stgSapPoHistTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_trans_hist_v6_stg"/>
+    <contextParameter comment="SAP PO Transactions table" internalId="_ehpY8WJlEe6F44U7lhY5eg" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_transactions_v6_stg"/>
+    <contextParameter comment="Snowflake Locator" internalId="_ehpY8mJlEe6F44U7lhY5eg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="qq98815.ap-southeast-1"/>
+    <contextParameter comment="Snowflake Username" internalId="_ehpY82JlEe6F44U7lhY5eg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jlaurente"/>
+    <contextParameter comment="Snowflake Password" internalId="_ehpY9GJlEe6F44U7lhY5eg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:xjn5TFPpzizMjdEIF9SfI3AdhMOKA3n++7Yc0Qxh/I/7lMtLeSm9gJXYEQbxvA=="/>
+    <contextParameter comment="Snowflake Default Warehouse" internalId="_ehpY9WJlEe6F44U7lhY5eg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="COMPUTE_WH"/>
+    <contextParameter comment="Snowflake Default Schema" internalId="_ehpY9mJlEe6F44U7lhY5eg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PUBLIC"/>
+    <contextParameter comment="Snowflake Default Database" internalId="_ehpY92JlEe6F44U7lhY5eg" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="QUAL"/>
+    <contextParameter comment="Snowflake Staging Area" internalId="_ehpY-GJlEe6F44U7lhY5eg" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="STG"/>
+    <contextParameter comment="Snowflake Work Area" internalId="_ehpY-WJlEe6F44U7lhY5eg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="WRK"/>
+    <contextParameter comment="Snowflake Core Zone" internalId="_ehpY-mJlEe6F44U7lhY5eg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="CORE"/>
+    <contextParameter comment="Snowflake Reporting Layer" internalId="_ehpY-2JlEe6F44U7lhY5eg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PRES"/>
+    <contextParameter comment="Snowflake Default Role" internalId="_ehpY_GJlEe6F44U7lhY5eg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="ACCOUNTADMIN"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_ehpY_WJlEe6F44U7lhY5eg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/"/>
+    <contextParameter comment="Snowflake Driver Class Name" internalId="_ehpY_mJlEe6F44U7lhY5eg" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+    <contextParameter comment="Snowflake Application Schema" internalId="_ehpY_2JlEe6F44U7lhY5eg" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="appl"/>
+    <contextParameter comment="" internalId="_ehpZAGJlEe6F44U7lhY5eg" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/in/"/>
+    <contextParameter comment="" internalId="_ehpZAWJlEe6F44U7lhY5eg" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/reject/"/>
+    <contextParameter comment="" internalId="_ehpZAmJlEe6F44U7lhY5eg" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/out/"/>
+    <contextParameter comment="" internalId="_ehpZA2JlEe6F44U7lhY5eg" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/"/>
+    <contextParameter comment="" internalId="_ehpZBGJlEe6F44U7lhY5eg" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/"/>
+    <contextParameter comment="" internalId="_ehpZBWJlEe6F44U7lhY5eg" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/"/>
+    <contextParameter comment="" internalId="_ehpZBmJlEe6F44U7lhY5eg" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/"/>
+    <contextParameter comment="" internalId="_ehpZB2JlEe6F44U7lhY5eg" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/logs/"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter comment="FPH+FPRC PO transactions staging table" internalId="_ehpZCGJlEe6F44U7lhY5eg" name="stgPoTbl" prompt="stgPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_stg"/>
+    <contextParameter comment="FPH+FPRC NONPO transactions staging table" internalId="_ehpZCWJlEe6F44U7lhY5eg" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_stg"/>
+    <contextParameter comment="Payee staging table" internalId="_ehpZCmJlEe6F44U7lhY5eg" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="payee_stg"/>
+    <contextParameter comment="Calendar staging table" internalId="_ehpZC2JlEe6F44U7lhY5eg" name="stgCalendarTbl" prompt="stgCalendarTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="calendar_stg"/>
+    <contextParameter comment="Transaction Status staging table" internalId="_ehpZDGJlEe6F44U7lhY5eg" name="stgTransStatusTbl" prompt="stgTransStatusTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_status_stg"/>
+    <contextParameter comment="Transaction Step staging table" internalId="_ehpZDWJlEe6F44U7lhY5eg" name="stgTransStepTbl" prompt="stgTransStepTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_step_stg"/>
+    <contextParameter comment="AP Aging staging table" internalId="_ehpZDmJlEe6F44U7lhY5eg" name="stgApAgingTbl" prompt="stgApAgingTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_ap_aging_v6_stg"/>
+    <contextParameter comment="Transaction Type staging table" internalId="_ehpZD2JlEe6F44U7lhY5eg" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="transaction_type_stg"/>
+    <contextParameter comment="Core table for NONPO Transactions" internalId="_ehpZEGJlEe6F44U7lhY5eg" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6"/>
+    <contextParameter comment="Company staging table" internalId="_ehpZEWJlEe6F44U7lhY5eg" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="company_stg"/>
+    <contextParameter comment="Work table for NONPO Transactions" internalId="_ehpZEmJlEe6F44U7lhY5eg" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_nonpo_transactions_v6_wrk"/>
+    <contextParameter comment="Run Date in ISO Format" internalId="_ehpZE2JlEe6F44U7lhY5eg" name="exRunDate" prompt="exRunDate?" promptNeeded="true" repositoryContextId="_hFHP4NHqEe2dYNiC7nObeA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_ehpZFGJlEe6F44U7lhY5eg" name="spPocStgToCorePoLoad" prompt="spPocStgToCorePoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_po_load"/>
+    <contextParameter comment="" internalId="_ehpZFWJlEe6F44U7lhY5eg" name="spPocStgToCoreNonPoLoad" prompt="spPocStgToCoreNonPoLoad?" promptNeeded="false" repositoryContextId="_WzL6MNmXEe2ztuPBAQVphQ" type="id_String" value="sp_poc_clcsla_nonpo_load"/>
+    <contextParameter comment="Vendor List Staging Table" internalId="_ehpZFmJlEe6F44U7lhY5eg" name="stgVendorTbl" prompt="stgVendorTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor_list_v6_stg"/>
+    <contextParameter comment="Audit Table" internalId="_ehpZF2JlEe6F44U7lhY5eg" name="appAuditTbl" prompt="appAuditTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="audit_log"/>
+    <contextParameter comment="Work table for PO Transactions" internalId="_ehpZGGJlEe6F44U7lhY5eg" name="wrkPoTbl" prompt="wrkPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6_wrk"/>
+    <contextParameter comment="FPIP+FUI Transactions staging table" internalId="_ehpZGWJlEe6F44U7lhY5eg" name="stgMixedTrans" prompt="stgMixedTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="mixed_transactions_v6_stg"/>
+    <contextParameter comment="Vendor List Core Table" internalId="_ehpZGmJlEe6F44U7lhY5eg" name="corVendorListTbl" prompt="corVendorListTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="vendor"/>
+    <contextParameter comment="Core table for PO Transactions" internalId="_ehpZG2JlEe6F44U7lhY5eg" name="corPoTbl" prompt="corPoTbl?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_po_transactions_v6"/>
+    <contextParameter comment="SAP PO Trans Hist table" internalId="_ehpZHGJlEe6F44U7lhY5eg" name="stgSapPoHistTrans" prompt="stgSapPoHistTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_trans_hist_v6_stg"/>
+    <contextParameter comment="SAP PO Transactions table" internalId="_ehpZHWJlEe6F44U7lhY5eg" name="stgSapPoTrans" prompt="stgSapPoTrans?" promptNeeded="false" repositoryContextId="_nRF2gNHVEe2ddt47PzgGCA" type="id_String" value="poc_sap_po_transactions_v6_stg"/>
+    <contextParameter comment="Snowflake Locator" internalId="_ehpZHmJlEe6F44U7lhY5eg" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="qq98815.ap-southeast-1"/>
+    <contextParameter comment="Snowflake Username" internalId="_ehpZH2JlEe6F44U7lhY5eg" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jlaurente"/>
+    <contextParameter comment="Snowflake Password" internalId="_ehpZIGJlEe6F44U7lhY5eg" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_Password" value="enc:system.encryption.key.v1:xjn5TFPpzizMjdEIF9SfI3AdhMOKA3n++7Yc0Qxh/I/7lMtLeSm9gJXYEQbxvA=="/>
+    <contextParameter comment="Snowflake Default Warehouse" internalId="_ehpZIWJlEe6F44U7lhY5eg" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="COMPUTE_WH"/>
+    <contextParameter comment="Snowflake Default Schema" internalId="_ehpZImJlEe6F44U7lhY5eg" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PUBLIC"/>
+    <contextParameter comment="Snowflake Default Database" internalId="_ehpZI2JlEe6F44U7lhY5eg" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="QUAL"/>
+    <contextParameter comment="Snowflake Staging Area" internalId="_ehpZJGJlEe6F44U7lhY5eg" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="STG"/>
+    <contextParameter comment="Snowflake Work Area" internalId="_ehpZJWJlEe6F44U7lhY5eg" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="WRK"/>
+    <contextParameter comment="Snowflake Core Zone" internalId="_ehpZJmJlEe6F44U7lhY5eg" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="CORE"/>
+    <contextParameter comment="Snowflake Reporting Layer" internalId="_ehpZJ2JlEe6F44U7lhY5eg" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="PRES"/>
+    <contextParameter comment="Snowflake Default Role" internalId="_ehpZKGJlEe6F44U7lhY5eg" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="ACCOUNTADMIN"/>
+    <contextParameter comment="Snowflake JDBC Subprotocol String" internalId="_ehpZKWJlEe6F44U7lhY5eg" name="sfJdbcUrl" prompt="sfJdbcUrl?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="jdbc:snowflake://qq98815.ap-southeast-1.snowflakecomputing.com/"/>
+    <contextParameter comment="Snowflake Driver Class Name" internalId="_ehpZKmJlEe6F44U7lhY5eg" name="sfJdbcDriverClass" prompt="sfJdbcDriverClass?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+    <contextParameter comment="Snowflake Application Schema" internalId="_ehpZK2JlEe6F44U7lhY5eg" name="sfAppSchema" prompt="sfAppSchema?" promptNeeded="false" repositoryContextId="_EgMDYNHVEe2ddt47PzgGCA" type="id_String" value="appl"/>
+    <contextParameter comment="" internalId="_ehpZLGJlEe6F44U7lhY5eg" name="dirIn" prompt="dirIn?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/in/"/>
+    <contextParameter comment="" internalId="_ehpZLWJlEe6F44U7lhY5eg" name="dirReject" prompt="dirReject?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/reject/"/>
+    <contextParameter comment="" internalId="_ehpZLmJlEe6F44U7lhY5eg" name="dirOut" prompt="dirOut?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/out/"/>
+    <contextParameter comment="" internalId="_ehpZL2JlEe6F44U7lhY5eg" name="dirFphFprcPoTrans" prompt="dirFphFprcPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (PO Based)/FPH_Invoice Receipt (FPH+FPRC)/"/>
+    <contextParameter comment="" internalId="_ehpZMGJlEe6F44U7lhY5eg" name="dirFphFprcNonPoTrans" prompt="dirFphFprcNonPoTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPH + FPRC (NonPO)/FPH_Payment Form(FPH+FPRC)/"/>
+    <contextParameter comment="" internalId="_ehpZMWJlEe6F44U7lhY5eg" name="dirFpipFuiTrans" prompt="dirFpipFuiTrans?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/POC KF Data - FPIP+FUI/"/>
+    <contextParameter comment="" internalId="_ehpZMmJlEe6F44U7lhY5eg" name="dirArrival" prompt="dirArrival?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/arrival/"/>
+    <contextParameter comment="" internalId="_ehpZM2JlEe6F44U7lhY5eg" name="dirLog" prompt="dirLog?" promptNeeded="false" repositoryContextId="_uUmVgNHVEe2ddt47PzgGCA" type="id_String" value="D:/talend/fgen/logs/"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ZLma0Bt08rsl5TR2FUk2pdXRiUT5HcOvv6LdPPR/"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/talend/Talend-Studio-20230428_0423-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ETLuR/FR1+1h2/WS1ro3p20r/nQfzZkLGnBNvi+s"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_22fAYNG8Ee2LQI3C_np7BA" name="DataOperation"/>
+    <routinesParameter id="_22oxYNG8Ee2LQI3C_np7BA" name="Mathematical"/>
+    <routinesParameter id="_22x7UNG8Ee2LQI3C_np7BA" name="Numeric"/>
+    <routinesParameter id="_2253ING8Ee2LQI3C_np7BA" name="Relational"/>
+    <routinesParameter id="_21StkNG8Ee2LQI3C_np7BA" name="SQLike"/>
+    <routinesParameter id="_23FdVtG8Ee2LQI3C_np7BA" name="StringHandling"/>
+    <routinesParameter id="_23POUNG8Ee2LQI3C_np7BA" name="TalendDataGenerator"/>
+    <routinesParameter id="_23YYQNG8Ee2LQI3C_np7BA" name="TalendDate"/>
+    <routinesParameter id="_23iJStG8Ee2LQI3C_np7BA" name="TalendStringUtil"/>
+    <routinesParameter id="_23iJQNG8Ee2LQI3C_np7BA" name="TalendString"/>
+    <routinesParameter id="_aFZZtthWEe28zq2ZapP-Jw" name="DataQualityDependencies"/>
+    <routinesParameter id="_aFs7sNhWEe28zq2ZapP-Jw" name="DQTechnical"/>
+    <routinesParameter id="_aFPoudhWEe28zq2ZapP-Jw" name="DataQuality"/>
+    <routinesParameter id="_aFjKuNhWEe28zq2ZapP-Jw" name="DqStringHandling"/>
+    <routinesParameter id="_aFHs4NhWEe28zq2ZapP-Jw" name="DataMasking"/>
+  </parameters>
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRowGenerator_1"/>
+    <elementParameter field="TEXT" name="NB_ROWS" show="false" value="1"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="dummy"/>
+      <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6 )"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRowGenerator_1">
+      <column comment="" key="false" length="-1" name="dummy" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+        <additionalField key="AVRO_TECHNICAL_KEY" value="results"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// code sample:&#10;//&#10;// multiply by 2 the row identifier&#10;// output_row.id = input_row.id * 2;&#10;//&#10;// lowercase the name&#10;// output_row.name = input_row.name.toLowerCase();&#10;&#10;String exRunDate = new String(context.exRunDate);&#10;if (exRunDate.isEmpty()) {&#10;&#9;globalMap.put(&quot;batch_id&quot;, new String(TalendDate.getDate(&quot;yyyyMMdd&quot;)));&#10;} else {&#10;&#9;globalMap.put(&quot;batch_id&quot;, new String(context.exRunDate));&#10;}&#10;&#10;System.out.println(&quot;JAVAROW1: &quot; + globalMap.get(&quot;batch_id&quot;).toString());&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1">
+      <column comment="" key="false" length="-1" name="results" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="results"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// code sample:&#10;//&#10;// multiply by 2 the row identifier&#10;// output_row.id = input_row.id * 2;&#10;//&#10;// lowercase the name&#10;// output_row.name = input_row.name.toLowerCase();&#10;System.out.println(&quot;JAVAROW2: &quot; + globalMap.get(&quot;batch_id&quot;).toString());&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_2"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;the end is near&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tAssertCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssertCatcher_1"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="GET_ORIGINAL_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TASSERT" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tAssertCatcher_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="5" name="language" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="10" name="status" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="substatus" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="description" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="exception" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Object" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.dirLog + &quot;XXX_BATCH_ID_XXX&quot; + &quot;_&quot; + context.exRunDate + &quot;_&quot; + TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;,TalendDate.getCurrentDate()) + &quot;_SUCCESS.log&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="true"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="LABEL" value="Log File"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="5" name="language" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="10" name="status" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="substatus" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="description" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="exception" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Object" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tAssert" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssert_1"/>
+    <elementParameter field="TEXT" name="DESCRIPTION" value="&quot;Success Run&quot;"/>
+    <elementParameter field="MEMO_JAVA" name="EXPRESSION" value="((Integer)globalMap.get(&quot;tJavaRow_2_NB_LINE&quot;)) != 0"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tAssert_1"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="20" name="root_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="20" name="father_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="context" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.dirLog + &quot;XXX_BATCH_ID_XXX&quot; + &quot;_&quot; + context.exRunDate + &quot;_&quot; + TalendDate.formatDate(&quot;yyyyMMddHHmmss&quot;,TalendDate.getCurrentDate()) + &quot;_ERROR.log&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="true"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="LABEL" value="Log File"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_2">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tJavaRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaRow_2" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_2" target="tAssert_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tJavaRow_2" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_2" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tAssertCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tAssertCatcher_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="log_errors" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tFileOutputDelimited_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="log_errors"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRowGenerator_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssertCatcher_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Log Success"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssert_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Log Error"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9453d230-b66b-49ea-8da4-ee166565cf85"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uuvytJD4gLPeDcxC7dRLRN1jzrXJHRIZ1oJy3aMCPgojb9bhv3qiSNxk7JPUDSXj+YTzWan8Sexj&#13;
+sDzLcwAXIg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ae4cb09a-3dd5-4262-a95e-4dc25ddac94a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7NO6rN8Dw567EI4jPovD1C1LQcnj3LMPSGj3oS1ZUdpT8FTFOrD4+HfB2+bozpbXMUuJfI22LYsj&#13;
+odXc2NqGbA==</DigestValue></Reference></SignedInfo><SignatureValue>h2sG/wTENY3OeMv5GiXUJ1Y8almF2Ck5l4InHwlzdov+rNZPyTeikfDIjNJ08+hl5HwJr1dyN+hz&#13;
+2MH1EcQfHQQ0sRYvVZeT56klzYbiEoq+sW+qcGPL6obaoI46NJEO8GObft1x1Xmp+3OdE7W55DC8&#13;
+Lv5qCBTHupSOdexHXbo7ubSVtZ/prEln+oT9sDn/3CDWZbem7qZDRlg9JeFadcfkvfUpC1fKDLmo&#13;
+ByFVHyxDeEeifQAl+guoVut3Ruid1G8jnQoZt+bu0CzVyquecR4NfIpJYqfUcARuGADY7WzBU7i1&#13;
+N0W3OImstZr2v0k/HMBfKyE+KTixPcD3oLnxpA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ae4cb09a-3dd5-4262-a95e-4dc25ddac94a" Target="#_9453d230-b66b-49ea-8da4-ee166565cf85"><Timestamp>2023-10-04 02:54:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,156 @@
+{
+  "itemId" : "_HpCjIGG-Ee6zarQRz_sbaQ",
+  "contextList" : [ {
+    "contextName" : "cloud",
+    "repoId" : "_nRF2gNHVEe2ddt47PzgGCA",
+    "parameterList" : [ {
+      "id" : "_fnCgQmGxEe66jKBMk6biLg",
+      "name" : "stgPoTbl"
+    }, {
+      "id" : "_fnCgQWGxEe66jKBMk6biLg",
+      "name" : "stgNonPoTbl"
+    }, {
+      "id" : "_fnCgSGGxEe66jKBMk6biLg",
+      "name" : "stgPayeeTbl"
+    }, {
+      "id" : "_fnCgQ2GxEe66jKBMk6biLg",
+      "name" : "stgCalendarTbl"
+    }, {
+      "id" : "_fnCgRWGxEe66jKBMk6biLg",
+      "name" : "stgTransStatusTbl"
+    }, {
+      "id" : "_fnCgRmGxEe66jKBMk6biLg",
+      "name" : "stgTransStepTbl"
+    }, {
+      "id" : "_fnCgRGGxEe66jKBMk6biLg",
+      "name" : "stgApAgingTbl"
+    }, {
+      "id" : "_fnCgR2GxEe66jKBMk6biLg",
+      "name" : "stgTransTypeTbl"
+    }, {
+      "id" : "_fnCgS2GxEe66jKBMk6biLg",
+      "name" : "corNonPoTbl"
+    }, {
+      "id" : "_fnCgSWGxEe66jKBMk6biLg",
+      "name" : "stgCompanyTbl"
+    }, {
+      "id" : "_fnCgSmGxEe66jKBMk6biLg",
+      "name" : "wrkNonPoTbl"
+    }, {
+      "id" : "_fnCgUGGxEe66jKBMk6biLg",
+      "name" : "stgVendorTbl"
+    }, {
+      "id" : "_fnCgU2GxEe66jKBMk6biLg",
+      "name" : "appAuditTbl"
+    }, {
+      "id" : "_fnCgT2GxEe66jKBMk6biLg",
+      "name" : "wrkPoTbl"
+    }, {
+      "id" : "_fnCgTWGxEe66jKBMk6biLg",
+      "name" : "stgMixedTrans"
+    }, {
+      "id" : "_fnCgUWGxEe66jKBMk6biLg",
+      "name" : "corVendorListTbl"
+    }, {
+      "id" : "_fnCgTGGxEe66jKBMk6biLg",
+      "name" : "corPoTbl"
+    }, {
+      "id" : "_fnCgUmGxEe66jKBMk6biLg",
+      "name" : "stgSapPoHistTrans"
+    }, {
+      "id" : "_fnCgTmGxEe66jKBMk6biLg",
+      "name" : "stgSapPoTrans"
+    } ]
+  }, {
+    "contextName" : "cloud",
+    "repoId" : "_hFHP4NHqEe2dYNiC7nObeA",
+    "parameterList" : [ {
+      "id" : "_qwoD0WGxEe66jKBMk6biLg",
+      "name" : "exRunDate"
+    } ]
+  }, {
+    "contextName" : "cloud",
+    "repoId" : "_WzL6MNmXEe2ztuPBAQVphQ",
+    "parameterList" : [ {
+      "id" : "_N5kY8mGxEe66jKBMk6biLg",
+      "name" : "spPocStgToCorePoLoad"
+    }, {
+      "id" : "_N5kY8WGxEe66jKBMk6biLg",
+      "name" : "spPocStgToCoreNonPoLoad"
+    } ]
+  }, {
+    "contextName" : "cloud",
+    "repoId" : "_uUmVgNHVEe2ddt47PzgGCA",
+    "parameterList" : [ {
+      "id" : "_8M6UgWGxEe66jKBMk6biLg",
+      "name" : "dirIn"
+    }, {
+      "id" : "_8M6Ug2GxEe66jKBMk6biLg",
+      "name" : "dirOut"
+    }, {
+      "id" : "_8M6Uh2GxEe66jKBMk6biLg",
+      "name" : "dirArrival"
+    }, {
+      "id" : "_8M6UhWGxEe66jKBMk6biLg",
+      "name" : "dirFphFprcNonPoTrans"
+    }, {
+      "id" : "_8M6UiGGxEe66jKBMk6biLg",
+      "name" : "dirLog"
+    }, {
+      "id" : "_8M6UgmGxEe66jKBMk6biLg",
+      "name" : "dirReject"
+    }, {
+      "id" : "_8M6UhmGxEe66jKBMk6biLg",
+      "name" : "dirFpipFuiTrans"
+    }, {
+      "id" : "_8M6UhGGxEe66jKBMk6biLg",
+      "name" : "dirFphFprcPoTrans"
+    } ]
+  }, {
+    "contextName" : "cloud",
+    "repoId" : "_EgMDYNHVEe2ddt47PzgGCA",
+    "parameterList" : [ {
+      "id" : "_pzwIsWGtEe6PrtpB8YoOmA",
+      "name" : "sfServerName"
+    }, {
+      "id" : "_pzwIsmGtEe6PrtpB8YoOmA",
+      "name" : "sfUserName"
+    }, {
+      "id" : "_pzwIs2GtEe6PrtpB8YoOmA",
+      "name" : "sfPassword"
+    }, {
+      "id" : "_pzwItGGtEe6PrtpB8YoOmA",
+      "name" : "sfWarehouse"
+    }, {
+      "id" : "_pzwItWGtEe6PrtpB8YoOmA",
+      "name" : "sfSchema"
+    }, {
+      "id" : "_pzwItmGtEe6PrtpB8YoOmA",
+      "name" : "sfDatabase"
+    }, {
+      "id" : "_pzwIt2GtEe6PrtpB8YoOmA",
+      "name" : "sfStgSchema"
+    }, {
+      "id" : "_pzwIuGGtEe6PrtpB8YoOmA",
+      "name" : "sfWrkSchema"
+    }, {
+      "id" : "_pzwIuWGtEe6PrtpB8YoOmA",
+      "name" : "sfCoreSchema"
+    }, {
+      "id" : "_pzwIumGtEe6PrtpB8YoOmA",
+      "name" : "sfPresSchema"
+    }, {
+      "id" : "_pzwIu2GtEe6PrtpB8YoOmA",
+      "name" : "sfRole"
+    }, {
+      "id" : "_pzwIvGGtEe6PrtpB8YoOmA",
+      "name" : "sfJdbcUrl"
+    }, {
+      "id" : "_pzwIvWGtEe6PrtpB8YoOmA",
+      "name" : "sfJdbcDriverClass"
+    }, {
+      "id" : "_pzwIvmGtEe6PrtpB8YoOmA",
+      "name" : "sfAppSchema"
+    } ]
+  } ]
+}
